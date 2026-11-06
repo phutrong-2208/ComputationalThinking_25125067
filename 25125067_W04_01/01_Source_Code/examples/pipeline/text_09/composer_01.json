@@ -1,0 +1,80 @@
+{
+  "exam": {
+    "title": "Đề toán synthetic 09",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 4.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Tính $11+14$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "25",
+          "B": "27",
+          "C": "24",
+          "D": "28"
+        },
+        "answer": "A",
+        "solution": "Cộng hai số: 11+14=25."
+      },
+      {
+        "id": "q2",
+        "stem": "Giải phương trình $2x+14=36$.",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "11",
+        "solution": "Chuyển vế được 2x=22; x=11."
+      },
+      {
+        "id": "q3",
+        "stem": "Cho $f(x)=11x+14$. Tính $f(2)$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "37",
+          "B": "36",
+          "C": "35",
+          "D": "39"
+        },
+        "answer": "B",
+        "solution": "Thay x=2: f(2)=11*2+14=36."
+      },
+      {
+        "id": "q4",
+        "stem": "Hình chữ nhật có chiều dài 11 cm và chiều rộng 14 cm. Diện tích bằng bao nhiêu cm vuông?",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "154",
+        "solution": "Diện tích bằng chiều dài nhân chiều rộng: 11*14=154."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1"
+    },
+    {
+      "id": "q2"
+    },
+    {
+      "id": "q3"
+    },
+    {
+      "id": "q4"
+    }
+  ],
+  "visuals": []
+}

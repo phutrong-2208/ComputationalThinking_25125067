@@ -1,0 +1,41 @@
+{
+  "request": {
+    "matrix": {
+      "subject": "Toán",
+      "title": "Đọc biểu đồ cột",
+      "topics": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "question_count": 1,
+          "points": 2
+        }
+      ],
+      "question_count": 1,
+      "question_type_distribution": {
+        "short_answer": 1
+      },
+      "difficulty_distribution": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "total_points": 2,
+      "duration_minutes": 20
+    },
+    "include_answers": true,
+    "include_solutions": true
+  },
+  "evidence": [
+    {
+      "id": "source-q1",
+      "text": "Fixture synthetic for 04_chart: Số sách của ba lớp A, B, C lần lượt như biểu đồ. Tổng là bao nhiêu?",
+      "role": "content_support",
+      "locator": "fixture:04_chart:q1"
+    }
+  ],
+  "require_evidence": true,
+  "required_visual_question_ids": [
+    "q1"
+  ]
+}

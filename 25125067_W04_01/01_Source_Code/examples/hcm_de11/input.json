@@ -1,0 +1,27 @@
+{
+  "request": {
+    "matrix": {
+      "subject": "Đánh giá năng lực HCM",
+      "title": "Đề luyện tập theo khung ĐGNL HCM",
+      "topics": [
+        {"id": "tieng_viet", "name": "Tiếng Việt", "question_count": 30},
+        {"id": "tieng_anh", "name": "Tiếng Anh", "question_count": 30},
+        {"id": "toan_hoc", "name": "Toán học", "question_count": 30},
+        {"id": "logic_so_lieu", "name": "Logic, phân tích số liệu", "question_count": 12},
+        {"id": "suy_luan_khoa_hoc", "name": "Suy luận khoa học", "question_count": 18}
+      ],
+      "question_count": 120,
+      "question_type_distribution": {"multiple_choice": 120},
+      "difficulty_distribution": {"easy": 40, "medium": 60, "hard": 20},
+      "total_points": 120,
+      "duration_minutes": 150
+    },
+    "format_profile": "hcm_dgnl_de11",
+    "include_answers": true,
+    "include_solutions": true
+  },
+  "evidence": [],
+  "require_evidence": false,
+  "exam_family": "hcm_dgnl",
+  "required_visual_question_ids": []
+}

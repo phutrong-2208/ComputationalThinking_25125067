@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 5+8=13."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "5",
+      "explanation": "Chuyển vế được 2x=10; x=5."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=5*2+8=18."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "40",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 5*8=40."
+    }
+  ]
+}

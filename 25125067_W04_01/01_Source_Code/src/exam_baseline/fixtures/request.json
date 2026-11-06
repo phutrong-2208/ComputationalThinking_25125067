@@ -1,0 +1,115 @@
+{
+  "matrix": {
+    "subject": "Mathematics",
+    "title": "Algebra and Functions Quiz",
+    "topics": [
+      {
+        "id": "algebra",
+        "name": "Algebra",
+        "subtopics": [
+          "linear_equations"
+        ],
+        "learning_objectives": [
+          {
+            "id": "solve_linear",
+            "description": "Solve linear equations in one variable."
+          }
+        ],
+        "question_count": 2,
+        "points": 5
+      },
+      {
+        "id": "functions",
+        "name": "Functions",
+        "subtopics": [
+          "evaluation"
+        ],
+        "learning_objectives": [
+          {
+            "id": "evaluate_function",
+            "description": "Evaluate and infer linear functions."
+          }
+        ],
+        "question_count": 2,
+        "points": 5
+      }
+    ],
+    "question_count": 4,
+    "question_type_distribution": {
+      "multiple_choice": 2,
+      "short_answer": 1,
+      "true_false": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 1,
+      "hard": 1
+    },
+    "total_points": 10,
+    "points_by_type": {
+      "multiple_choice": 5,
+      "short_answer": 3,
+      "true_false": 2
+    },
+    "duration_minutes": 30,
+    "additional_constraints": [
+      "Use clear language suitable for introductory algebra."
+    ]
+  },
+  "question_bank": {
+    "questions": [
+      {
+        "id": "bank-linear-001",
+        "stem": "Solve 2x + 3 = 7. What is x?",
+        "topic_id": "algebra",
+        "subtopic": "linear_equations",
+        "learning_objective_ids": [
+          "solve_linear"
+        ],
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 2,
+        "choices": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "5"
+        },
+        "answer": "B",
+        "solution": "Subtract 3 to obtain 2x = 4, then divide by 2: x = 2.",
+        "metadata": {
+          "origin": "Hand-authored demonstration",
+          "revision": "1"
+        }
+      },
+      {
+        "id": "bank-function-001",
+        "stem": "For f(x) = 2x + 1, f(3) = 7. True or false?",
+        "topic_id": "functions",
+        "subtopic": "evaluation",
+        "learning_objective_ids": [
+          "evaluate_function"
+        ],
+        "question_type": "true_false",
+        "difficulty": "easy",
+        "choices": {},
+        "answer": "true",
+        "solution": "f(3) = 2(3) + 1 = 7, so the statement is true.",
+        "metadata": {
+          "origin": "Hand-authored demonstration"
+        }
+      }
+    ]
+  },
+  "context": {
+    "course_materials": [
+      "A linear function has the form f(x) = ax + b."
+    ],
+    "instructions": [
+      "Show reasoning in solutions."
+    ],
+    "custom_requirements": []
+  },
+  "include_answers": true,
+  "include_solutions": true
+}

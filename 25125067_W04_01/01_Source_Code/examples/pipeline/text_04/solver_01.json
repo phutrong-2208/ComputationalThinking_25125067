@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 6+9=15."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "6",
+      "explanation": "Chuyển vế được 2x=12; x=6."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=6*2+9=21."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "54",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 6*9=54."
+    }
+  ]
+}

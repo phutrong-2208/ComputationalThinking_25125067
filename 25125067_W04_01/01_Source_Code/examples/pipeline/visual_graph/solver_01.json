@@ -1,0 +1,14 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "7",
+      "explanation": "Thay x = 3: y = 7."
+    }
+  ]
+}

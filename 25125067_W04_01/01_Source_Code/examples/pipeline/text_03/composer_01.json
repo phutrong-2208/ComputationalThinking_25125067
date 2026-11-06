@@ -1,0 +1,80 @@
+{
+  "exam": {
+    "title": "Đề toán synthetic 03",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 4.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Tính $5+8$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "13",
+          "B": "15",
+          "C": "12",
+          "D": "16"
+        },
+        "answer": "A",
+        "solution": "Cộng hai số: 5+8=13."
+      },
+      {
+        "id": "q2",
+        "stem": "Giải phương trình $2x+8=18$.",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "5",
+        "solution": "Chuyển vế được 2x=10; x=5."
+      },
+      {
+        "id": "q3",
+        "stem": "Cho $f(x)=5x+8$. Tính $f(2)$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "19",
+          "B": "18",
+          "C": "17",
+          "D": "21"
+        },
+        "answer": "B",
+        "solution": "Thay x=2: f(2)=5*2+8=18."
+      },
+      {
+        "id": "q4",
+        "stem": "Hình chữ nhật có chiều dài 5 cm và chiều rộng 8 cm. Diện tích bằng bao nhiêu cm vuông?",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "40",
+        "solution": "Diện tích bằng chiều dài nhân chiều rộng: 5*8=40."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1"
+    },
+    {
+      "id": "q2"
+    },
+    {
+      "id": "q3"
+    },
+    {
+      "id": "q4"
+    }
+  ],
+  "visuals": []
+}

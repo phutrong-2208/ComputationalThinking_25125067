@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 9+12=21."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "9",
+      "explanation": "Chuyển vế được 2x=18; x=9."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=9*2+12=30."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "108",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 9*12=108."
+    }
+  ]
+}

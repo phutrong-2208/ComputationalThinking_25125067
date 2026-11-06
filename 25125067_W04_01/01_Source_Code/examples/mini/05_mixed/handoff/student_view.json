@@ -1,0 +1,29 @@
+{
+  "title": "Bài tập hỗn hợp",
+  "subject": "Toán",
+  "duration_minutes": 20,
+  "total_points": 5.0,
+  "instructions": "Trả lời các câu hỏi.",
+  "questions": [
+    {
+      "stem": "Giải x + 5 = 9.",
+      "topic_id": "math",
+      "learning_objective_ids": [],
+      "question_type": "short_answer",
+      "difficulty": "easy",
+      "choices": {},
+      "id": "q1",
+      "points": 2.0
+    },
+    {
+      "stem": "Theo đồ thị y = x + 2, y bằng bao nhiêu khi x = 3?",
+      "topic_id": "math",
+      "learning_objective_ids": [],
+      "question_type": "short_answer",
+      "difficulty": "medium",
+      "choices": {},
+      "id": "q2",
+      "points": 3.0
+    }
+  ]
+}

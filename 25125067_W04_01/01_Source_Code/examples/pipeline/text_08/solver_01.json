@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 10+13=23."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "10",
+      "explanation": "Chuyển vế được 2x=20; x=10."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=10*2+13=33."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "130",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 10*13=130."
+    }
+  ]
+}

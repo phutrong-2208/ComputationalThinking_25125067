@@ -1,0 +1,62 @@
+{
+  "exam": {
+    "title": "Đọc biểu đồ cột",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 2,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Số sách của ba lớp A, B, C lần lượt như biểu đồ. Tổng là bao nhiêu?",
+        "topic_id": "math",
+        "subtopic": null,
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "points": 2,
+        "choices": {},
+        "answer": "12",
+        "solution": "3 + 5 + 4 = 12.",
+        "source_question_id": null
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "books_q1"
+      ]
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "books_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "required": true,
+      "purpose": "Số sách từng lớp",
+      "kind": "bar_chart",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "values": [
+        3,
+        5,
+        4
+      ],
+      "units": "quyển",
+      "x_label": "Lớp",
+      "y_label": "Số sách (quyển)"
+    }
+  ]
+}

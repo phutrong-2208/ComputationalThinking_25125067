@@ -1,0 +1,10 @@
+{
+  "q1": {
+    "answer": "x = 4",
+    "solution": "Trừ 5 hai vế."
+  },
+  "q2": {
+    "answer": "5",
+    "solution": "Thay x = 3: y = 5."
+  }
+}

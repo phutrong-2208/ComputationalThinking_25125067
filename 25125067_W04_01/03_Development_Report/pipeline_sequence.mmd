@@ -1,0 +1,26 @@
+sequenceDiagram
+ actor U as Teacher
+ participant O as Python Orchestrator
+ participant C as Composer
+ participant I as Illustrator
+ participant S as Solver
+ participant R as Reviewer
+ U->>O: PipelineRequest
+ O->>C: Request and permitted context
+ C-->>O: Draft
+ O->>I: Student content and visual specs
+ I-->>O: Native TikZ / PGFPlots
+ Note over O: Validate and merge LaTeX; bind hashes
+ O->>S: Student view and merged source, no Composer key
+ S-->>O: SolutionBook
+ O->>R: Student view, solutions and requirements
+ R-->>O: ReviewReport for revision 1
+ opt Feedback required exactly once
+ O->>C: Review and previous draft
+ C-->>O: Revised draft
+ O->>I: Revised content and visual specs
+ I-->>O: Revised drawings
+ O->>S: Revised merged source
+ S-->>O: Revised solutions
+ end
+ O-->>U: de_thi.tex and human-review note

@@ -1,0 +1,101 @@
+{
+  "exam": {
+    "title": "Bài tập hỗn hợp",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 5,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Giải x + 5 = 9.",
+        "topic_id": "math",
+        "subtopic": null,
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "points": 2,
+        "choices": {},
+        "answer": "x = 4",
+        "solution": "Trừ 5 hai vế.",
+        "source_question_id": null
+      },
+      {
+        "id": "q2",
+        "stem": "Theo đồ thị y = x + 2, y bằng bao nhiêu khi x = 3?",
+        "topic_id": "math",
+        "subtopic": null,
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 3,
+        "choices": {},
+        "answer": "5",
+        "solution": "Thay x = 3: y = 5.",
+        "source_question_id": null
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": []
+    },
+    {
+      "id": "q2",
+      "source_refs": [
+        {
+          "evidence_id": "source-q2",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "graph_q2"
+      ]
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "graph_q2",
+      "question_id": "q2",
+      "revision": 1,
+      "required": true,
+      "purpose": "Đồ thị y=x+2",
+      "kind": "line_graph",
+      "points": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "x_domain": [
+        0,
+        4
+      ],
+      "y_domain": [
+        0,
+        6
+      ],
+      "x_label": "x",
+      "y_label": "y"
+    }
+  ]
+}

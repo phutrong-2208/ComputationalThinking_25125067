@@ -1,0 +1,41 @@
+{
+  "request": {
+    "matrix": {
+      "subject": "Toán",
+      "title": "Đọc đồ thị hàm số",
+      "topics": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "question_count": 1,
+          "points": 2
+        }
+      ],
+      "question_count": 1,
+      "question_type_distribution": {
+        "short_answer": 1
+      },
+      "difficulty_distribution": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "total_points": 2,
+      "duration_minutes": 20
+    },
+    "include_answers": true,
+    "include_solutions": true
+  },
+  "evidence": [
+    {
+      "id": "source-q1",
+      "text": "Fixture synthetic for 02_graph: Theo đồ thị y = 2x + 1, y bằng bao nhiêu khi x = 3?",
+      "role": "content_support",
+      "locator": "fixture:02_graph:q1"
+    }
+  ],
+  "require_evidence": true,
+  "required_visual_question_ids": [
+    "q1"
+  ]
+}

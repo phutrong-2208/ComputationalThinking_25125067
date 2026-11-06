@@ -1,0 +1,138 @@
+{
+  "schema_version": "mini-v1",
+  "exam_id": "e4eb9eeb-762b-5003-b4b4-2358a0524cd0",
+  "draft_id": "a10ebd7f-0549-5e07-9b2c-cde3e2614f05",
+  "revision": 1,
+  "exam": {
+    "title": "Bài tập hỗn hợp",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 5.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "stem": "Giải x + 5 = 9.",
+        "topic_id": "math",
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "choices": {},
+        "id": "q1",
+        "points": 2.0
+      },
+      {
+        "stem": "Theo đồ thị y = x + 2, y bằng bao nhiêu khi x = 3?",
+        "topic_id": "math",
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "choices": {},
+        "id": "q2",
+        "points": 3.0
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [],
+      "stem_format": "plain"
+    },
+    {
+      "id": "q2",
+      "source_refs": [
+        {
+          "evidence_id": "source-q2",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "graph_q2"
+      ],
+      "stem_format": "plain"
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "graph_q2",
+      "question_id": "q2",
+      "revision": 1,
+      "required": true,
+      "purpose": "Đồ thị y=x+2",
+      "kind": "line_graph",
+      "labels": [],
+      "x_label": "x",
+      "y_label": "y",
+      "x_domain": [
+        0.0,
+        4.0
+      ],
+      "y_domain": [
+        0.0,
+        6.0
+      ],
+      "points": [
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          4.0
+        ],
+        [
+          3.0,
+          5.0
+        ]
+      ],
+      "segments": [],
+      "values": [],
+      "scaling": "linear"
+    }
+  ],
+  "figures": [
+    {
+      "visual_id": "graph_q2",
+      "question_id": "q2",
+      "revision": 1,
+      "path": "figures/graph_q2.png",
+      "asset_sha256": "97ad9ad6578f4f1c8de8552e3830857cc85ef6652266f4dd7e888b44d9a57d45",
+      "spec_sha256": "c9ee975a9499a7860a6a2549229101f1f025708825ac2c3e6aabe906ae6d1086",
+      "mime": "image/png",
+      "width_px": 900,
+      "height_px": 600,
+      "renderer": "pillow-primitives-v1",
+      "status": "succeeded"
+    }
+  ],
+  "composer": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 1,
+    "latency_ms": 0.4013000288978219,
+    "usage": {}
+  },
+  "illustrator": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 0,
+    "latency_ms": 13.455200009047985,
+    "usage": {}
+  },
+  "prompt_version": "mini-composer-v1",
+  "prompt_sha256": "c90c35e0cfdac89151cabb8d780660cba4e09190912d4cf2a8903ff008c66231",
+  "provider": "fixture",
+  "model": "fixture",
+  "input_sha256": "7e1494f9e60855135434858c8efdbafefa4fb110d752e9990ab3fce4f94daeac",
+  "output_sha256": "0d441f688b7ff86fea3ab3e448f57c48beb344306f58291101602a0786b6d7b2"
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "mini-v1",
+  "exam_id": "5201778e-0e05-53de-8367-f034b08076c5",
+  "draft_id": "cd759fcf-d9bb-5658-97f6-bb81efee55c3",
+  "revision": 1,
+  "exam": {
+    "title": "Đọc biểu đồ cột",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 2.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "stem": "Số sách của ba lớp A, B, C lần lượt như biểu đồ. Tổng là bao nhiêu?",
+        "topic_id": "math",
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "choices": {},
+        "id": "q1",
+        "points": 2.0
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "books_q1"
+      ],
+      "stem_format": "plain"
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "books_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "required": true,
+      "purpose": "Số sách từng lớp",
+      "kind": "bar_chart",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "units": "quyển",
+      "x_label": "Lớp",
+      "y_label": "Số sách (quyển)",
+      "points": [],
+      "segments": [],
+      "values": [
+        3.0,
+        5.0,
+        4.0
+      ],
+      "scaling": "linear"
+    }
+  ],
+  "figures": [
+    {
+      "visual_id": "books_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "path": "figures/books_q1.png",
+      "asset_sha256": "c15e9c9097ac9715940745e1f6e2918e39677508485e5a7d85e98e69d1fbb344",
+      "spec_sha256": "d65370cdd3266630a24035c8f2aeeed13d9f85afee6bd7f7658bfcac7b69b53b",
+      "mime": "image/png",
+      "width_px": 900,
+      "height_px": 600,
+      "renderer": "pillow-primitives-v1",
+      "status": "succeeded"
+    }
+  ],
+  "composer": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 1,
+    "latency_ms": 0.2617000136524439,
+    "usage": {}
+  },
+  "illustrator": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 0,
+    "latency_ms": 14.157600002363324,
+    "usage": {}
+  },
+  "prompt_version": "mini-composer-v1",
+  "prompt_sha256": "c90c35e0cfdac89151cabb8d780660cba4e09190912d4cf2a8903ff008c66231",
+  "provider": "fixture",
+  "model": "fixture",
+  "input_sha256": "3c0e7255c883b76ada24180ed21753b5115ce421d911da6a58e4383b2b7532f4",
+  "output_sha256": "3ee27eeacfa011cf9d7fd00214a8116ddb3807d0c5f264a0326aeb7d9f1dfa1e"
+}

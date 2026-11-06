@@ -1,0 +1,80 @@
+{
+  "exam": {
+    "title": "Đề toán synthetic 05",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 4.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Tính $7+10$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "17",
+          "B": "19",
+          "C": "16",
+          "D": "20"
+        },
+        "answer": "A",
+        "solution": "Cộng hai số: 7+10=17."
+      },
+      {
+        "id": "q2",
+        "stem": "Giải phương trình $2x+10=24$.",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "7",
+        "solution": "Chuyển vế được 2x=14; x=7."
+      },
+      {
+        "id": "q3",
+        "stem": "Cho $f(x)=7x+10$. Tính $f(2)$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "25",
+          "B": "24",
+          "C": "23",
+          "D": "27"
+        },
+        "answer": "B",
+        "solution": "Thay x=2: f(2)=7*2+10=24."
+      },
+      {
+        "id": "q4",
+        "stem": "Hình chữ nhật có chiều dài 7 cm và chiều rộng 10 cm. Diện tích bằng bao nhiêu cm vuông?",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "70",
+        "solution": "Diện tích bằng chiều dài nhân chiều rộng: 7*10=70."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1"
+    },
+    {
+      "id": "q2"
+    },
+    {
+      "id": "q3"
+    },
+    {
+      "id": "q4"
+    }
+  ],
+  "visuals": []
+}

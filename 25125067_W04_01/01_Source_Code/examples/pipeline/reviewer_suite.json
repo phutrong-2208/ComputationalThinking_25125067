@@ -1,0 +1,1755 @@
+{
+  "scope": "synthetic arithmetic answer-key errors only",
+  "cases": [
+    {
+      "id": "clean_01",
+      "student_view": {
+        "exam_id": "review-1-0",
+        "draft_id": "review-draft-1-0",
+        "revision": 1,
+        "artifact_sha256": "138795849b395406ef6f6953dbce19d4b95e0197f3af630e37d6e0e85377c542",
+        "exam": {
+          "title": "Đề toán synthetic 01",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $3+6$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "9",
+                "B": "11",
+                "C": "8",
+                "D": "12"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-1-0",
+        "draft_id": "review-draft-1-0",
+        "revision": 1,
+        "artifact_sha256": "138795849b395406ef6f6953dbce19d4b95e0197f3af630e37d6e0e85377c542",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 3+6=9."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 01",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-1-0",
+        "draft_id": "review-draft-1-0",
+        "revision": 1,
+        "artifact_sha256": "138795849b395406ef6f6953dbce19d4b95e0197f3af630e37d6e0e85377c542",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_01",
+      "student_view": {
+        "exam_id": "review-1-1",
+        "draft_id": "review-draft-1-1",
+        "revision": 1,
+        "artifact_sha256": "138795849b395406ef6f6953dbce19d4b95e0197f3af630e37d6e0e85377c542",
+        "exam": {
+          "title": "Đề toán synthetic 01",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $3+6$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "9",
+                "B": "11",
+                "C": "8",
+                "D": "12"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-1-1",
+        "draft_id": "review-draft-1-1",
+        "revision": 1,
+        "artifact_sha256": "138795849b395406ef6f6953dbce19d4b95e0197f3af630e37d6e0e85377c542",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 3+6=9."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 01",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-1-1",
+        "draft_id": "review-draft-1-1",
+        "revision": 1,
+        "artifact_sha256": "138795849b395406ef6f6953dbce19d4b95e0197f3af630e37d6e0e85377c542",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "3+6=9; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_02",
+      "student_view": {
+        "exam_id": "review-2-0",
+        "draft_id": "review-draft-2-0",
+        "revision": 1,
+        "artifact_sha256": "70744a729f25335b0c8f637fdc4d30b7c2d2f2cff42e7556fdb888aa321e5c6e",
+        "exam": {
+          "title": "Đề toán synthetic 02",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $4+7$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "11",
+                "B": "13",
+                "C": "10",
+                "D": "14"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-2-0",
+        "draft_id": "review-draft-2-0",
+        "revision": 1,
+        "artifact_sha256": "70744a729f25335b0c8f637fdc4d30b7c2d2f2cff42e7556fdb888aa321e5c6e",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 4+7=11."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 02",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-2-0",
+        "draft_id": "review-draft-2-0",
+        "revision": 1,
+        "artifact_sha256": "70744a729f25335b0c8f637fdc4d30b7c2d2f2cff42e7556fdb888aa321e5c6e",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_02",
+      "student_view": {
+        "exam_id": "review-2-1",
+        "draft_id": "review-draft-2-1",
+        "revision": 1,
+        "artifact_sha256": "70744a729f25335b0c8f637fdc4d30b7c2d2f2cff42e7556fdb888aa321e5c6e",
+        "exam": {
+          "title": "Đề toán synthetic 02",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $4+7$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "11",
+                "B": "13",
+                "C": "10",
+                "D": "14"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-2-1",
+        "draft_id": "review-draft-2-1",
+        "revision": 1,
+        "artifact_sha256": "70744a729f25335b0c8f637fdc4d30b7c2d2f2cff42e7556fdb888aa321e5c6e",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 4+7=11."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 02",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-2-1",
+        "draft_id": "review-draft-2-1",
+        "revision": 1,
+        "artifact_sha256": "70744a729f25335b0c8f637fdc4d30b7c2d2f2cff42e7556fdb888aa321e5c6e",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "4+7=11; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_03",
+      "student_view": {
+        "exam_id": "review-3-0",
+        "draft_id": "review-draft-3-0",
+        "revision": 1,
+        "artifact_sha256": "55b2b25fc626c2066a49e3c386b5a4bbb0beb303078f8a6b90f4663125ee3428",
+        "exam": {
+          "title": "Đề toán synthetic 03",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $5+8$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "13",
+                "B": "15",
+                "C": "12",
+                "D": "16"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-3-0",
+        "draft_id": "review-draft-3-0",
+        "revision": 1,
+        "artifact_sha256": "55b2b25fc626c2066a49e3c386b5a4bbb0beb303078f8a6b90f4663125ee3428",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 5+8=13."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 03",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-3-0",
+        "draft_id": "review-draft-3-0",
+        "revision": 1,
+        "artifact_sha256": "55b2b25fc626c2066a49e3c386b5a4bbb0beb303078f8a6b90f4663125ee3428",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_03",
+      "student_view": {
+        "exam_id": "review-3-1",
+        "draft_id": "review-draft-3-1",
+        "revision": 1,
+        "artifact_sha256": "55b2b25fc626c2066a49e3c386b5a4bbb0beb303078f8a6b90f4663125ee3428",
+        "exam": {
+          "title": "Đề toán synthetic 03",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $5+8$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "13",
+                "B": "15",
+                "C": "12",
+                "D": "16"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-3-1",
+        "draft_id": "review-draft-3-1",
+        "revision": 1,
+        "artifact_sha256": "55b2b25fc626c2066a49e3c386b5a4bbb0beb303078f8a6b90f4663125ee3428",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 5+8=13."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 03",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-3-1",
+        "draft_id": "review-draft-3-1",
+        "revision": 1,
+        "artifact_sha256": "55b2b25fc626c2066a49e3c386b5a4bbb0beb303078f8a6b90f4663125ee3428",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "5+8=13; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_04",
+      "student_view": {
+        "exam_id": "review-4-0",
+        "draft_id": "review-draft-4-0",
+        "revision": 1,
+        "artifact_sha256": "cb6597265986d6bf9d5a247b6bd403a015b8b0dac8deda11d55d6e9e5120bca9",
+        "exam": {
+          "title": "Đề toán synthetic 04",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $6+9$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "15",
+                "B": "17",
+                "C": "14",
+                "D": "18"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-4-0",
+        "draft_id": "review-draft-4-0",
+        "revision": 1,
+        "artifact_sha256": "cb6597265986d6bf9d5a247b6bd403a015b8b0dac8deda11d55d6e9e5120bca9",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 6+9=15."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 04",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-4-0",
+        "draft_id": "review-draft-4-0",
+        "revision": 1,
+        "artifact_sha256": "cb6597265986d6bf9d5a247b6bd403a015b8b0dac8deda11d55d6e9e5120bca9",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_04",
+      "student_view": {
+        "exam_id": "review-4-1",
+        "draft_id": "review-draft-4-1",
+        "revision": 1,
+        "artifact_sha256": "cb6597265986d6bf9d5a247b6bd403a015b8b0dac8deda11d55d6e9e5120bca9",
+        "exam": {
+          "title": "Đề toán synthetic 04",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $6+9$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "15",
+                "B": "17",
+                "C": "14",
+                "D": "18"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-4-1",
+        "draft_id": "review-draft-4-1",
+        "revision": 1,
+        "artifact_sha256": "cb6597265986d6bf9d5a247b6bd403a015b8b0dac8deda11d55d6e9e5120bca9",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 6+9=15."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 04",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-4-1",
+        "draft_id": "review-draft-4-1",
+        "revision": 1,
+        "artifact_sha256": "cb6597265986d6bf9d5a247b6bd403a015b8b0dac8deda11d55d6e9e5120bca9",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "6+9=15; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_05",
+      "student_view": {
+        "exam_id": "review-5-0",
+        "draft_id": "review-draft-5-0",
+        "revision": 1,
+        "artifact_sha256": "e9119cf05c30f32d96ecabb8dfae6f5b594083e6b1448860d350b6710dbb9f2f",
+        "exam": {
+          "title": "Đề toán synthetic 05",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $7+10$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "17",
+                "B": "19",
+                "C": "16",
+                "D": "20"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-5-0",
+        "draft_id": "review-draft-5-0",
+        "revision": 1,
+        "artifact_sha256": "e9119cf05c30f32d96ecabb8dfae6f5b594083e6b1448860d350b6710dbb9f2f",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 7+10=17."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 05",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-5-0",
+        "draft_id": "review-draft-5-0",
+        "revision": 1,
+        "artifact_sha256": "e9119cf05c30f32d96ecabb8dfae6f5b594083e6b1448860d350b6710dbb9f2f",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_05",
+      "student_view": {
+        "exam_id": "review-5-1",
+        "draft_id": "review-draft-5-1",
+        "revision": 1,
+        "artifact_sha256": "e9119cf05c30f32d96ecabb8dfae6f5b594083e6b1448860d350b6710dbb9f2f",
+        "exam": {
+          "title": "Đề toán synthetic 05",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $7+10$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "17",
+                "B": "19",
+                "C": "16",
+                "D": "20"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-5-1",
+        "draft_id": "review-draft-5-1",
+        "revision": 1,
+        "artifact_sha256": "e9119cf05c30f32d96ecabb8dfae6f5b594083e6b1448860d350b6710dbb9f2f",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 7+10=17."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 05",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-5-1",
+        "draft_id": "review-draft-5-1",
+        "revision": 1,
+        "artifact_sha256": "e9119cf05c30f32d96ecabb8dfae6f5b594083e6b1448860d350b6710dbb9f2f",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "7+10=17; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_06",
+      "student_view": {
+        "exam_id": "review-6-0",
+        "draft_id": "review-draft-6-0",
+        "revision": 1,
+        "artifact_sha256": "aa31009689180c3edfccf97d4966fd0442f0531429d4636830cde5bbbc42d634",
+        "exam": {
+          "title": "Đề toán synthetic 06",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $8+11$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "19",
+                "B": "21",
+                "C": "18",
+                "D": "22"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-6-0",
+        "draft_id": "review-draft-6-0",
+        "revision": 1,
+        "artifact_sha256": "aa31009689180c3edfccf97d4966fd0442f0531429d4636830cde5bbbc42d634",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 8+11=19."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 06",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-6-0",
+        "draft_id": "review-draft-6-0",
+        "revision": 1,
+        "artifact_sha256": "aa31009689180c3edfccf97d4966fd0442f0531429d4636830cde5bbbc42d634",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_06",
+      "student_view": {
+        "exam_id": "review-6-1",
+        "draft_id": "review-draft-6-1",
+        "revision": 1,
+        "artifact_sha256": "aa31009689180c3edfccf97d4966fd0442f0531429d4636830cde5bbbc42d634",
+        "exam": {
+          "title": "Đề toán synthetic 06",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $8+11$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "19",
+                "B": "21",
+                "C": "18",
+                "D": "22"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-6-1",
+        "draft_id": "review-draft-6-1",
+        "revision": 1,
+        "artifact_sha256": "aa31009689180c3edfccf97d4966fd0442f0531429d4636830cde5bbbc42d634",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 8+11=19."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 06",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-6-1",
+        "draft_id": "review-draft-6-1",
+        "revision": 1,
+        "artifact_sha256": "aa31009689180c3edfccf97d4966fd0442f0531429d4636830cde5bbbc42d634",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "8+11=19; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_07",
+      "student_view": {
+        "exam_id": "review-7-0",
+        "draft_id": "review-draft-7-0",
+        "revision": 1,
+        "artifact_sha256": "b223cdf00f004d4f52c33b3d1a77aabbffa3a698dbc194da7abf0fe0f2e9531f",
+        "exam": {
+          "title": "Đề toán synthetic 07",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $9+12$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "21",
+                "B": "23",
+                "C": "20",
+                "D": "24"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-7-0",
+        "draft_id": "review-draft-7-0",
+        "revision": 1,
+        "artifact_sha256": "b223cdf00f004d4f52c33b3d1a77aabbffa3a698dbc194da7abf0fe0f2e9531f",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 9+12=21."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 07",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-7-0",
+        "draft_id": "review-draft-7-0",
+        "revision": 1,
+        "artifact_sha256": "b223cdf00f004d4f52c33b3d1a77aabbffa3a698dbc194da7abf0fe0f2e9531f",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_07",
+      "student_view": {
+        "exam_id": "review-7-1",
+        "draft_id": "review-draft-7-1",
+        "revision": 1,
+        "artifact_sha256": "b223cdf00f004d4f52c33b3d1a77aabbffa3a698dbc194da7abf0fe0f2e9531f",
+        "exam": {
+          "title": "Đề toán synthetic 07",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $9+12$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "21",
+                "B": "23",
+                "C": "20",
+                "D": "24"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-7-1",
+        "draft_id": "review-draft-7-1",
+        "revision": 1,
+        "artifact_sha256": "b223cdf00f004d4f52c33b3d1a77aabbffa3a698dbc194da7abf0fe0f2e9531f",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 9+12=21."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 07",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-7-1",
+        "draft_id": "review-draft-7-1",
+        "revision": 1,
+        "artifact_sha256": "b223cdf00f004d4f52c33b3d1a77aabbffa3a698dbc194da7abf0fe0f2e9531f",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "9+12=21; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_08",
+      "student_view": {
+        "exam_id": "review-8-0",
+        "draft_id": "review-draft-8-0",
+        "revision": 1,
+        "artifact_sha256": "4bb439a712f45f2622d884469096c73c24efa542c8473d8c88096ecac40d3b94",
+        "exam": {
+          "title": "Đề toán synthetic 08",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $10+13$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "23",
+                "B": "25",
+                "C": "22",
+                "D": "26"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-8-0",
+        "draft_id": "review-draft-8-0",
+        "revision": 1,
+        "artifact_sha256": "4bb439a712f45f2622d884469096c73c24efa542c8473d8c88096ecac40d3b94",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 10+13=23."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 08",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-8-0",
+        "draft_id": "review-draft-8-0",
+        "revision": 1,
+        "artifact_sha256": "4bb439a712f45f2622d884469096c73c24efa542c8473d8c88096ecac40d3b94",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_08",
+      "student_view": {
+        "exam_id": "review-8-1",
+        "draft_id": "review-draft-8-1",
+        "revision": 1,
+        "artifact_sha256": "4bb439a712f45f2622d884469096c73c24efa542c8473d8c88096ecac40d3b94",
+        "exam": {
+          "title": "Đề toán synthetic 08",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $10+13$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "23",
+                "B": "25",
+                "C": "22",
+                "D": "26"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-8-1",
+        "draft_id": "review-draft-8-1",
+        "revision": 1,
+        "artifact_sha256": "4bb439a712f45f2622d884469096c73c24efa542c8473d8c88096ecac40d3b94",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 10+13=23."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 08",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-8-1",
+        "draft_id": "review-draft-8-1",
+        "revision": 1,
+        "artifact_sha256": "4bb439a712f45f2622d884469096c73c24efa542c8473d8c88096ecac40d3b94",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "10+13=23; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_09",
+      "student_view": {
+        "exam_id": "review-9-0",
+        "draft_id": "review-draft-9-0",
+        "revision": 1,
+        "artifact_sha256": "4df4a4607132dfc53e20d9006d44e00dc81ae565a648a33c1ba449b456f50207",
+        "exam": {
+          "title": "Đề toán synthetic 09",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $11+14$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "25",
+                "B": "27",
+                "C": "24",
+                "D": "28"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-9-0",
+        "draft_id": "review-draft-9-0",
+        "revision": 1,
+        "artifact_sha256": "4df4a4607132dfc53e20d9006d44e00dc81ae565a648a33c1ba449b456f50207",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 11+14=25."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 09",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-9-0",
+        "draft_id": "review-draft-9-0",
+        "revision": 1,
+        "artifact_sha256": "4df4a4607132dfc53e20d9006d44e00dc81ae565a648a33c1ba449b456f50207",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_09",
+      "student_view": {
+        "exam_id": "review-9-1",
+        "draft_id": "review-draft-9-1",
+        "revision": 1,
+        "artifact_sha256": "4df4a4607132dfc53e20d9006d44e00dc81ae565a648a33c1ba449b456f50207",
+        "exam": {
+          "title": "Đề toán synthetic 09",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $11+14$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "25",
+                "B": "27",
+                "C": "24",
+                "D": "28"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-9-1",
+        "draft_id": "review-draft-9-1",
+        "revision": 1,
+        "artifact_sha256": "4df4a4607132dfc53e20d9006d44e00dc81ae565a648a33c1ba449b456f50207",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 11+14=25."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 09",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-9-1",
+        "draft_id": "review-draft-9-1",
+        "revision": 1,
+        "artifact_sha256": "4df4a4607132dfc53e20d9006d44e00dc81ae565a648a33c1ba449b456f50207",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "11+14=25; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean_10",
+      "student_view": {
+        "exam_id": "review-10-0",
+        "draft_id": "review-draft-10-0",
+        "revision": 1,
+        "artifact_sha256": "2bc849d0e4783a534106122adfa2bc9b2318d3d548139dc3c97f3e442f432458",
+        "exam": {
+          "title": "Đề toán synthetic 10",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $12+15$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "27",
+                "B": "29",
+                "C": "26",
+                "D": "30"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-10-0",
+        "draft_id": "review-draft-10-0",
+        "revision": 1,
+        "artifact_sha256": "2bc849d0e4783a534106122adfa2bc9b2318d3d548139dc3c97f3e442f432458",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "A",
+            "explanation": "Cộng hai số: 12+15=27."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 10",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [],
+      "replay": {
+        "exam_id": "review-10-0",
+        "draft_id": "review-draft-10-0",
+        "revision": 1,
+        "artifact_sha256": "2bc849d0e4783a534106122adfa2bc9b2318d3d548139dc3c97f3e442f432458",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "approved",
+        "issues": []
+      }
+    },
+    {
+      "id": "defect_10",
+      "student_view": {
+        "exam_id": "review-10-1",
+        "draft_id": "review-draft-10-1",
+        "revision": 1,
+        "artifact_sha256": "2bc849d0e4783a534106122adfa2bc9b2318d3d548139dc3c97f3e442f432458",
+        "exam": {
+          "title": "Đề toán synthetic 10",
+          "subject": "Toán",
+          "duration_minutes": 20,
+          "total_points": 1.0,
+          "instructions": "Trả lời các câu hỏi.",
+          "questions": [
+            {
+              "id": "q1",
+              "stem": "Tính $12+15$.",
+              "topic_id": "math",
+              "question_type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1.0,
+              "choices": {
+                "A": "27",
+                "B": "29",
+                "C": "26",
+                "D": "30"
+              }
+            }
+          ]
+        },
+        "image_manifest": []
+      },
+      "solutions": {
+        "exam_id": "review-10-1",
+        "draft_id": "review-draft-10-1",
+        "revision": 1,
+        "artifact_sha256": "2bc849d0e4783a534106122adfa2bc9b2318d3d548139dc3c97f3e442f432458",
+        "entries": [
+          {
+            "question_id": "q1",
+            "solvability": "solvable",
+            "answer": "D",
+            "explanation": "Cộng hai số: 12+15=27."
+          }
+        ]
+      },
+      "matrix": {
+        "subject": "Toán",
+        "title": "Đề toán synthetic 10",
+        "duration_minutes": 20,
+        "question_count": 1,
+        "total_points": 1.0,
+        "topics": [
+          {
+            "id": "math",
+            "name": "Toán",
+            "question_count": 1
+          }
+        ],
+        "question_type_distribution": {
+          "multiple_choice": 1
+        },
+        "difficulty_distribution": {
+          "easy": 1
+        }
+      },
+      "gold": [
+        {
+          "code": "wrong_answer",
+          "question_id": "q1"
+        }
+      ],
+      "replay": {
+        "exam_id": "review-10-1",
+        "draft_id": "review-draft-10-1",
+        "revision": 1,
+        "artifact_sha256": "2bc849d0e4783a534106122adfa2bc9b2318d3d548139dc3c97f3e442f432458",
+        "solution_sha256": "__CURRENT__",
+        "checked_question_ids": [
+          "q1"
+        ],
+        "decision": "needs_revision",
+        "issues": [
+          {
+            "code": "wrong_answer",
+            "severity": "major",
+            "target": "solver",
+            "question_id": "q1",
+            "evidence": "12+15=27; key A, not D.",
+            "message": "The answer key does not match the arithmetic.",
+            "suggested_action": "Re-solve the question and correct the key."
+          }
+        ]
+      }
+    }
+  ]
+}

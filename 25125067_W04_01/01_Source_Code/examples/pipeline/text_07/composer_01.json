@@ -1,0 +1,80 @@
+{
+  "exam": {
+    "title": "Đề toán synthetic 07",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 4.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Tính $9+12$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "21",
+          "B": "23",
+          "C": "20",
+          "D": "24"
+        },
+        "answer": "A",
+        "solution": "Cộng hai số: 9+12=21."
+      },
+      {
+        "id": "q2",
+        "stem": "Giải phương trình $2x+12=30$.",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "9",
+        "solution": "Chuyển vế được 2x=18; x=9."
+      },
+      {
+        "id": "q3",
+        "stem": "Cho $f(x)=9x+12$. Tính $f(2)$.",
+        "topic_id": "math",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "points": 1.0,
+        "choices": {
+          "A": "31",
+          "B": "30",
+          "C": "29",
+          "D": "33"
+        },
+        "answer": "B",
+        "solution": "Thay x=2: f(2)=9*2+12=30."
+      },
+      {
+        "id": "q4",
+        "stem": "Hình chữ nhật có chiều dài 9 cm và chiều rộng 12 cm. Diện tích bằng bao nhiêu cm vuông?",
+        "topic_id": "math",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 1.0,
+        "choices": {},
+        "answer": "108",
+        "solution": "Diện tích bằng chiều dài nhân chiều rộng: 9*12=108."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1"
+    },
+    {
+      "id": "q2"
+    },
+    {
+      "id": "q3"
+    },
+    {
+      "id": "q4"
+    }
+  ],
+  "visuals": []
+}

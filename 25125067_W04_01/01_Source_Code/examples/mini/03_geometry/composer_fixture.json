@@ -1,0 +1,84 @@
+{
+  "exam": {
+    "title": "Tam giác vuông",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 3,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Tam giác ABC vuông tại A, AB = 3 cm và AC = 4 cm. Tính BC.",
+        "topic_id": "math",
+        "subtopic": null,
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "points": 3,
+        "choices": {},
+        "answer": "5 cm",
+        "solution": "Áp dụng Pythagoras: BC = 5 cm.",
+        "source_question_id": null
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "triangle_q1"
+      ]
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "triangle_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "required": true,
+      "purpose": "Sơ đồ tam giác ABC",
+      "kind": "geometry_segments",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "segments": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "units": "cm",
+      "scaling": "equal"
+    }
+  ]
+}

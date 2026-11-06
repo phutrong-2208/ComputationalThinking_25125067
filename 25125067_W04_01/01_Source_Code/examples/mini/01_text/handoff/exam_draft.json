@@ -1,0 +1,61 @@
+{
+  "schema_version": "mini-v1",
+  "exam_id": "4dab569c-8c5d-5119-9055-f56912fb6927",
+  "draft_id": "7873056e-db71-5c09-911a-b74cbe11ce53",
+  "revision": 1,
+  "exam": {
+    "title": "Phương trình bậc nhất",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 2.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "stem": "Giải 2x + 3 = 7.",
+        "topic_id": "math",
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "choices": {},
+        "id": "q1",
+        "points": 2.0
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [],
+      "stem_format": "plain"
+    }
+  ],
+  "visuals": [],
+  "figures": [],
+  "composer": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 1,
+    "latency_ms": 0.3757999511435628,
+    "usage": {}
+  },
+  "illustrator": {
+    "status": "skipped",
+    "errors": [],
+    "reason": "No figures requested.",
+    "calls": 0,
+    "latency_ms": 0.001300009898841381,
+    "usage": {}
+  },
+  "prompt_version": "mini-composer-v1",
+  "prompt_sha256": "c90c35e0cfdac89151cabb8d780660cba4e09190912d4cf2a8903ff008c66231",
+  "provider": "fixture",
+  "model": "fixture",
+  "input_sha256": "d907e815bff83f167dff020c260217c7d22791cca4f02d14d6cdace26e40f3d2",
+  "output_sha256": "3bca6cfa6b87b27a4ba17204554cab988df37f5118344cf3d99eb0564dca5dc1"
+}

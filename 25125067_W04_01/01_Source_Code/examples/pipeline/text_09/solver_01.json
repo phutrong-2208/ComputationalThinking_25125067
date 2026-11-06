@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 11+14=25."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "11",
+      "explanation": "Chuyển vế được 2x=22; x=11."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=11*2+14=36."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "154",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 11*14=154."
+    }
+  ]
+}

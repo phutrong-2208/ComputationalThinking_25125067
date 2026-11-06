@@ -1,0 +1,19 @@
+{
+  "title": "Đọc biểu đồ cột",
+  "subject": "Toán",
+  "duration_minutes": 20,
+  "total_points": 2.0,
+  "instructions": "Trả lời các câu hỏi.",
+  "questions": [
+    {
+      "stem": "Số sách của ba lớp A, B, C lần lượt như biểu đồ. Tổng là bao nhiêu?",
+      "topic_id": "math",
+      "learning_objective_ids": [],
+      "question_type": "short_answer",
+      "difficulty": "easy",
+      "choices": {},
+      "id": "q1",
+      "points": 2.0
+    }
+  ]
+}

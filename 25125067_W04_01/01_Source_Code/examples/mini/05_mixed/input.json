@@ -1,0 +1,47 @@
+{
+  "request": {
+    "matrix": {
+      "subject": "Toán",
+      "title": "Bài tập hỗn hợp",
+      "topics": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "question_count": 2,
+          "points": 5
+        }
+      ],
+      "question_count": 2,
+      "question_type_distribution": {
+        "short_answer": 2
+      },
+      "difficulty_distribution": {
+        "easy": 1,
+        "medium": 1,
+        "hard": 0
+      },
+      "total_points": 5,
+      "duration_minutes": 20
+    },
+    "include_answers": true,
+    "include_solutions": true
+  },
+  "evidence": [
+    {
+      "id": "source-q1",
+      "text": "Fixture synthetic for 05_mixed: Giải x + 5 = 9.",
+      "role": "content_support",
+      "locator": "fixture:05_mixed:q1"
+    },
+    {
+      "id": "source-q2",
+      "text": "Fixture synthetic for 05_mixed: Theo đồ thị y = x + 2, y bằng bao nhiêu khi x = 3?",
+      "role": "content_support",
+      "locator": "fixture:05_mixed:q2"
+    }
+  ],
+  "require_evidence": true,
+  "required_visual_question_ids": [
+    "q2"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 7+10=17."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "7",
+      "explanation": "Chuyển vế được 2x=14; x=7."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=7*2+10=24."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "70",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 7*10=70."
+    }
+  ]
+}

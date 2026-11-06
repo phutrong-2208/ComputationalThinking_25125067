@@ -1,0 +1,27 @@
+{
+  "request": {
+    "matrix": {
+      "subject": "Toán",
+      "title": "Đề toán synthetic 05",
+      "duration_minutes": 20,
+      "question_count": 4,
+      "total_points": 4.0,
+      "topics": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "question_count": 4
+        }
+      ],
+      "question_type_distribution": {
+        "multiple_choice": 2,
+        "short_answer": 2
+      },
+      "difficulty_distribution": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 0
+      }
+    }
+  }
+}

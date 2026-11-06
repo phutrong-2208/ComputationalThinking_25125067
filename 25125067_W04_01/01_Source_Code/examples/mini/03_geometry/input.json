@@ -1,0 +1,41 @@
+{
+  "request": {
+    "matrix": {
+      "subject": "Toán",
+      "title": "Tam giác vuông",
+      "topics": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "question_count": 1,
+          "points": 3
+        }
+      ],
+      "question_count": 1,
+      "question_type_distribution": {
+        "short_answer": 1
+      },
+      "difficulty_distribution": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 0
+      },
+      "total_points": 3,
+      "duration_minutes": 20
+    },
+    "include_answers": true,
+    "include_solutions": true
+  },
+  "evidence": [
+    {
+      "id": "source-q1",
+      "text": "Fixture synthetic for 03_geometry: Tam giác ABC vuông tại A, AB = 3 cm và AC = 4 cm. Tính BC.",
+      "role": "content_support",
+      "locator": "fixture:03_geometry:q1"
+    }
+  ],
+  "require_evidence": true,
+  "required_visual_question_ids": [
+    "q1"
+  ]
+}

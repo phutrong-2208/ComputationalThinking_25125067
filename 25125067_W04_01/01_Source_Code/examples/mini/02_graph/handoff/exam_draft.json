@@ -1,0 +1,117 @@
+{
+  "schema_version": "mini-v1",
+  "exam_id": "4b38b069-3bcc-540d-aa71-cab72b6d2340",
+  "draft_id": "efd607c0-7898-5084-a9ee-9d4107c90478",
+  "revision": 1,
+  "exam": {
+    "title": "Đọc đồ thị hàm số",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 2.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "stem": "Theo đồ thị y = 2x + 1, y bằng bao nhiêu khi x = 3?",
+        "topic_id": "math",
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "choices": {},
+        "id": "q1",
+        "points": 2.0
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "graph_q1"
+      ],
+      "stem_format": "plain"
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "graph_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "required": true,
+      "purpose": "Đồ thị y=2x+1",
+      "kind": "line_graph",
+      "labels": [],
+      "x_label": "x",
+      "y_label": "y",
+      "x_domain": [
+        0.0,
+        4.0
+      ],
+      "y_domain": [
+        0.0,
+        9.0
+      ],
+      "points": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          3.0
+        ],
+        [
+          2.0,
+          5.0
+        ],
+        [
+          3.0,
+          7.0
+        ]
+      ],
+      "segments": [],
+      "values": [],
+      "scaling": "linear"
+    }
+  ],
+  "figures": [
+    {
+      "visual_id": "graph_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "path": "figures/graph_q1.png",
+      "asset_sha256": "cbc4cf591f93218f21a96b4704a9ae7c823a552e7eb09fd8d7b09686a5de0f88",
+      "spec_sha256": "b77dccc7ccd5b8f9053b9ff1ed4fa727a76eaba033537e51968f458a48cbf029",
+      "mime": "image/png",
+      "width_px": 900,
+      "height_px": 600,
+      "renderer": "pillow-primitives-v1",
+      "status": "succeeded"
+    }
+  ],
+  "composer": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 1,
+    "latency_ms": 0.29150000773370266,
+    "usage": {}
+  },
+  "illustrator": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 0,
+    "latency_ms": 47.13169997557998,
+    "usage": {}
+  },
+  "prompt_version": "mini-composer-v1",
+  "prompt_sha256": "c90c35e0cfdac89151cabb8d780660cba4e09190912d4cf2a8903ff008c66231",
+  "provider": "fixture",
+  "model": "fixture",
+  "input_sha256": "dd099ecf51c6732618bc9464c6f5c6c24e14cae2913f639c002628717a1bffa0",
+  "output_sha256": "de721a288875990fa49d51c6b23d3a97559697e31a70ed4dea693b71c54ab963"
+}

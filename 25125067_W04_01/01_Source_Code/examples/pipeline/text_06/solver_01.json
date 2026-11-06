@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 8+11=19."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "8",
+      "explanation": "Chuyển vế được 2x=16; x=8."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=8*2+11=27."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "88",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 8*11=88."
+    }
+  ]
+}

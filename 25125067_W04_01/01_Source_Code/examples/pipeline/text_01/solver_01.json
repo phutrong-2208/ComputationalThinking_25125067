@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 3+6=9."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "3",
+      "explanation": "Chuyển vế được 2x=6; x=3."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=3*2+6=12."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "18",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 3*6=18."
+    }
+  ]
+}

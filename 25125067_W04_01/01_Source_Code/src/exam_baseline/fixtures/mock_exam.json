@@ -1,0 +1,65 @@
+{
+  "title": "Algebra and Functions Quiz",
+  "subject": "Mathematics",
+  "duration_minutes": 30,
+  "total_points": 10,
+  "instructions": "Answer all four questions. Show your reasoning for question 4.",
+  "questions": [
+    {
+      "id": "q1",
+      "stem": "Solve 2x + 3 = 7. What is x?",
+      "topic_id": "algebra",
+      "subtopic": "linear_equations",
+      "learning_objective_ids": ["solve_linear"],
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "points": 2,
+      "choices": {"A": "1", "B": "2", "C": "3", "D": "5"},
+      "answer": "B",
+      "solution": "Subtract 3 to obtain 2x = 4, then divide by 2: x = 2.",
+      "source_question_id": "bank-linear-001"
+    },
+    {
+      "id": "q2",
+      "stem": "Solve 3(x - 2) = 2x + 5.",
+      "topic_id": "algebra",
+      "subtopic": "linear_equations",
+      "learning_objective_ids": ["solve_linear"],
+      "question_type": "short_answer",
+      "difficulty": "medium",
+      "points": 3,
+      "choices": {},
+      "answer": "x = 11",
+      "solution": "Expand to 3x - 6 = 2x + 5. Subtract 2x and add 6: x = 11.",
+      "source_question_id": null
+    },
+    {
+      "id": "q3",
+      "stem": "For f(x) = 2x + 1, f(3) = 7. True or false?",
+      "topic_id": "functions",
+      "subtopic": "evaluation",
+      "learning_objective_ids": ["evaluate_function"],
+      "question_type": "true_false",
+      "difficulty": "easy",
+      "points": 2,
+      "choices": {},
+      "answer": "true",
+      "solution": "f(3) = 2(3) + 1 = 7, so the statement is true.",
+      "source_question_id": "bank-function-001"
+    },
+    {
+      "id": "q4",
+      "stem": "If f(x) = ax + b, f(1) = 5, and f(3) = 11, what is f(5)?",
+      "topic_id": "functions",
+      "subtopic": "evaluation",
+      "learning_objective_ids": ["evaluate_function"],
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "points": 3,
+      "choices": {"A": "13", "B": "15", "C": "17", "D": "19"},
+      "answer": "C",
+      "solution": "The slope is (11 - 5)/(3 - 1) = 3. Then b = 2 and f(5) = 17.",
+      "source_question_id": null
+    }
+  ]
+}

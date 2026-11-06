@@ -1,0 +1,38 @@
+{
+  "exam": {
+    "title": "Phương trình bậc nhất",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 2,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Giải 2x + 3 = 7.",
+        "topic_id": "math",
+        "subtopic": null,
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "easy",
+        "points": 2,
+        "choices": {},
+        "answer": "x = 2",
+        "solution": "2x = 4 nên x = 2.",
+        "source_question_id": null
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": []
+    }
+  ],
+  "visuals": []
+}

@@ -1,0 +1,13 @@
+flowchart TD
+ A[Validate request, template, budgets] --> C1[Composer revision 1]
+ C1 --> I1[Illustrator revision 1]
+ I1 --> M1[Check and merge LaTeX]
+ M1 --> S1[Solver: student view and merged source]
+ S1 --> R1[Reviewer: exactly one review]
+ R1 --> Q{Needs changes?}
+ Q -->|No| H[Publish de_thi.tex and hand off to human]
+ Q -->|Yes: one feedback| C2[Composer revision 2]
+ C2 --> I2[Illustrator revision 2]
+ I2 --> M2[Check and merge again]
+ M2 --> S2[Solver revision 2]
+ S2 --> H

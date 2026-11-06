@@ -1,0 +1,19 @@
+{
+  "title": "Đọc đồ thị hàm số",
+  "subject": "Toán",
+  "duration_minutes": 20,
+  "total_points": 2.0,
+  "instructions": "Trả lời các câu hỏi.",
+  "questions": [
+    {
+      "stem": "Theo đồ thị y = 2x + 1, y bằng bao nhiêu khi x = 3?",
+      "topic_id": "math",
+      "learning_objective_ids": [],
+      "question_type": "short_answer",
+      "difficulty": "easy",
+      "choices": {},
+      "id": "q1",
+      "points": 2.0
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "mini-v1",
+  "exam_id": "128c59f0-2cce-5eda-a95e-243a60134927",
+  "draft_id": "f018cd3e-6fb5-562b-9c2e-d589069307a7",
+  "revision": 1,
+  "exam": {
+    "title": "Tam giác vuông",
+    "subject": "Toán",
+    "duration_minutes": 20,
+    "total_points": 3.0,
+    "instructions": "Trả lời các câu hỏi.",
+    "questions": [
+      {
+        "stem": "Tam giác ABC vuông tại A, AB = 3 cm và AC = 4 cm. Tính BC.",
+        "topic_id": "math",
+        "learning_objective_ids": [],
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "choices": {},
+        "id": "q1",
+        "points": 3.0
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "source_refs": [
+        {
+          "evidence_id": "source-q1",
+          "role": "content_support"
+        }
+      ],
+      "figure_refs": [
+        "triangle_q1"
+      ],
+      "stem_format": "plain"
+    }
+  ],
+  "visuals": [
+    {
+      "visual_id": "triangle_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "required": true,
+      "purpose": "Sơ đồ tam giác ABC",
+      "kind": "geometry_segments",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "units": "cm",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ],
+      "segments": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "values": [],
+      "scaling": "equal"
+    }
+  ],
+  "figures": [
+    {
+      "visual_id": "triangle_q1",
+      "question_id": "q1",
+      "revision": 1,
+      "path": "figures/triangle_q1.png",
+      "asset_sha256": "6c8a1bb0cb056e70c9d76aaa6ec7bac4f073dc47e776d71e0221f5d07faffaa8",
+      "spec_sha256": "5b07adc2ffec69e7f05a90bf32b1ead1c77fb856a772eace7c075652f95847ba",
+      "mime": "image/png",
+      "width_px": 900,
+      "height_px": 600,
+      "renderer": "pillow-primitives-v1",
+      "status": "succeeded"
+    }
+  ],
+  "composer": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 1,
+    "latency_ms": 0.3149999538436532,
+    "usage": {}
+  },
+  "illustrator": {
+    "status": "succeeded",
+    "errors": [],
+    "calls": 0,
+    "latency_ms": 8.379500010050833,
+    "usage": {}
+  },
+  "prompt_version": "mini-composer-v1",
+  "prompt_sha256": "c90c35e0cfdac89151cabb8d780660cba4e09190912d4cf2a8903ff008c66231",
+  "provider": "fixture",
+  "model": "fixture",
+  "input_sha256": "e4ee3c2f0abd94cab92b0fa5b622fa9ff006c297be5618b1a85b59074112fb2f",
+  "output_sha256": "6651470b5925765f5fde54bec6fccad378c775170881c22d56ba681051632066"
+}

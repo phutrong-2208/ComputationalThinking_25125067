@@ -1,0 +1,32 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "entries": [
+    {
+      "question_id": "q1",
+      "solvability": "solvable",
+      "answer": "A",
+      "explanation": "Cộng hai số: 12+15=27."
+    },
+    {
+      "question_id": "q2",
+      "solvability": "solvable",
+      "answer": "12",
+      "explanation": "Chuyển vế được 2x=24; x=12."
+    },
+    {
+      "question_id": "q3",
+      "solvability": "solvable",
+      "answer": "B",
+      "explanation": "Thay x=2: f(2)=12*2+15=39."
+    },
+    {
+      "question_id": "q4",
+      "solvability": "solvable",
+      "answer": "180",
+      "explanation": "Diện tích bằng chiều dài nhân chiều rộng: 12*15=180."
+    }
+  ]
+}

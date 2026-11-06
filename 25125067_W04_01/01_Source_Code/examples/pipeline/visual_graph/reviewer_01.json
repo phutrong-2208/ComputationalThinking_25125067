@@ -1,0 +1,12 @@
+{
+  "exam_id": "__CURRENT__",
+  "draft_id": "__CURRENT__",
+  "revision": "__CURRENT__",
+  "artifact_sha256": "__CURRENT__",
+  "solution_sha256": "__CURRENT__",
+  "checked_question_ids": [
+    "q1"
+  ],
+  "decision": "approved",
+  "issues": []
+}
