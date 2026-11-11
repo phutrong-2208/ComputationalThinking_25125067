@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jira (simulated)</title>
+  <link rel="stylesheet" href="/static/common.css">
+  <link rel="stylesheet" href="/static/jira.css">
+</head>
+<body>
+  <div class="topbar">
+    <span class="brand">🔷 Jira (simulated)</span>
+    <a class="navlink" href="/jira">Board</a>
+    <div class="spacer"></div>
+    <a class="navlink" href="/confluence">Switch to Confluence →</a>
+  </div>
+  <main>
+    
+      
+    
+    
+<p><a class="muted" href="/jira">← Board</a></p>
+
+<div class="card">
+  <h1>REQ-104 — Review requirements: User Profile File Upload
+    <span class="badge badge-ready">Analysis Ready</span>
+    
+  </h1>
+  <p class="muted">Assignee: Jordan (Eng Lead) · Created 2026-11-11 07:00 UTC</p>
+  <p>Please review the attached requirements doc for ambiguity before implementation kicks off.</p>
+  <p>Linked requirement:
+    <a href="/confluence/page-req-upload">User Profile File Upload — Requirements</a>
+    (currently version 2)
+  </p>
+
+  
+  <form method="post" action="/jira/REQ-104/rerun" style="display:inline">
+    <button class="btn btn-secondary" type="submit">Re-run analysis now</button>
+  </form>
+  <form method="post" action="/jira/REQ-104/close" style="display:inline">
+    <button class="btn btn-primary" type="submit">Mark Done</button>
+  </form>
+  
+</div>
+
+
+<div class="card">
+  <h2>Activity</h2>
+  
+  <div class="comment bot">
+    <strong>Requirements Analysis Agent (bot)</strong> · <span class="muted">2026-11-11 07:01 UTC</span><br>
+    Analysis complete (satisfied), requirement version 1. See Analysis Report — REQ-104 in Confluence.
+  </div>
+  
+  <div class="comment bot">
+    <strong>Requirements Analysis Agent (bot)</strong> · <span class="muted">2026-11-11 07:01 UTC</span><br>
+    Analysis complete (satisfied), requirement version 2. See Analysis Report — REQ-104 in Confluence.
+  </div>
+  
+</div>
+
+
+
+<div class="card">
+  <h2>Latest automation run</h2>
+  <p>
+    Status: <span class="badge badge-pass">satisfied</span>
+    · 11 model turns · 2 grading pass(es)
+    · analyzed requirement version 2
+  </p>
+  <p><a href="/confluence/page-analysis-req-104">View the generated Analysis Report →</a></p>
+
+  <h3>Evaluation loop</h3>
+  
+  <p class="muted">Pass 0:
+    <span class="badge badge-fail">needs_revision</span>
+  </p>
+  <table>
+    <tr><th>Criterion</th><th>Result</th><th>Gap</th></tr>
+    
+    <tr>
+      <td>every clause of the requirement document is addressed somewhere in the analysis</td>
+      <td><span class="badge badge-pass">pass</span></td>
+      <td class="muted"></td>
+    </tr>
+    
+    <tr>
+      <td>every bullet in the Ambiguities section has an indented &#34;Resolved by:&#34; line naming the specific fact or decision that would settle it</td>
+      <td><span class="badge badge-fail">fail</span></td>
+      <td class="muted">The Ambiguities bullets at lines 10, 12, 14, and 16 each have a &#39;Reason:&#39; line, but no indented &#39;Resolved by:&#39; line naming the specific fact or decision that would settle the ambiguity.</td>
+    </tr>
+    
+    <tr>
+      <td>every bullet in the Ambiguities section has an indented &#34;Edge case:&#34; line naming a concrete production failure that ambiguity could cause</td>
+      <td><span class="badge badge-fail">fail</span></td>
+      <td class="muted">The Ambiguities bullets at lines 10, 12, 14, and 16 do not include any indented &#39;Edge case:&#39; line describing a concrete production failure.</td>
+    </tr>
+    
+  </table>
+  
+  <p class="muted">Pass 1:
+    <span class="badge badge-pass">satisfied</span>
+  </p>
+  <table>
+    <tr><th>Criterion</th><th>Result</th><th>Gap</th></tr>
+    
+    <tr>
+      <td>every clause of the requirement document is addressed somewhere in the analysis</td>
+      <td><span class="badge badge-pass">pass</span></td>
+      <td class="muted"></td>
+    </tr>
+    
+    <tr>
+      <td>every bullet in the Ambiguities section has an indented &#34;Resolved by:&#34; line naming the specific fact or decision that would settle it</td>
+      <td><span class="badge badge-pass">pass</span></td>
+      <td class="muted"></td>
+    </tr>
+    
+    <tr>
+      <td>every bullet in the Ambiguities section has an indented &#34;Edge case:&#34; line naming a concrete production failure that ambiguity could cause</td>
+      <td><span class="badge badge-pass">pass</span></td>
+      <td class="muted"></td>
+    </tr>
+    
+  </table>
+  
+
+  <h3>Execution trace</h3>
+  <table>
+    <tr><th>#</th><th>Actor</th><th>Action</th><th>Detail</th></tr>
+    
+    <tr class="trace-row-model">
+      <td>1</td><td>Model reasoning</td><td>Calls fetch_requirement</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>2</td><td>Tool</td><td>fetch_requirement</td><td class="muted">Users shall be able to upload files to their profile. Uploaded files should be stored securely. The system should support common file types. Each uploaded file must be at most 20 MB.</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>3</td><td>Model reasoning</td><td>Calls write_file: Confirmed Facts</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>4</td><td>Tool</td><td>write_file: Confirmed Facts</td><td class="muted">Updated file /analysis.md</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>5</td><td>Model reasoning</td><td>Calls edit_file: Ambiguities</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>6</td><td>Tool</td><td>edit_file: Ambiguities</td><td class="muted">Successfully replaced 1 instance(s) of the string in &#39;/analysis.md&#39;</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>7</td><td>Model reasoning</td><td>Calls edit_file: Clarification Questions</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>8</td><td>Tool</td><td>edit_file: Clarification Questions</td><td class="muted">Successfully replaced 1 instance(s) of the string in &#39;/analysis.md&#39;</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>9</td><td>Model reasoning</td><td>Calls edit_file: Assumptions</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>10</td><td>Tool</td><td>edit_file: Assumptions</td><td class="muted">Error: String &#39;## Assumptions &#39; appears 2 times in file. Use replace_all=True to replace all instances, or provide a more specific string with surrounding context.</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>11</td><td>Model reasoning</td><td>Calls edit_file: Assumptions</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>12</td><td>Tool</td><td>edit_file: Assumptions</td><td class="muted">Successfully replaced 2 instance(s) of the string in &#39;/analysis.md&#39;</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>13</td><td>Model reasoning</td><td>Calls edit_file: Summary</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>14</td><td>Tool</td><td>edit_file: Summary</td><td class="muted">Successfully replaced 3 instance(s) of the string in &#39;/analysis.md&#39;</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>15</td><td>Model reasoning</td><td>Finishes the review</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>16</td><td>Model reasoning</td><td>Calls read_file</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>17</td><td>Tool</td><td>read_file</td><td class="muted">1 # Requirements Analysis 2 3 ## Confirmed Facts 4 - Users shall be able to upload files to their profile. 5 - Uploaded files should be stored securely. 6 - The system should support common file types. 7 - Each uploaded…</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>18</td><td>Model reasoning</td><td>Calls edit_file: Ambiguities</td><td class="muted"></td>
+    </tr>
+    
+    <tr class="">
+      <td>19</td><td>Tool</td><td>edit_file: Ambiguities</td><td class="muted">Successfully replaced 1 instance(s) of the string in &#39;/analysis.md&#39;</td>
+    </tr>
+    
+    <tr class="trace-row-model">
+      <td>20</td><td>Model reasoning</td><td>Finishes the review</td><td class="muted"></td>
+    </tr>
+    
+  </table>
+</div>
+
+
+
+
+<div class="card">
+  <h2>What changed since the previous run</h2>
+  <table>
+    <tr><th></th><th>Previous run</th><th>Latest run</th></tr>
+    <tr><td>Requirement version analyzed</td><td>1</td><td>2</td></tr>
+    <tr><td>Verification status</td>
+      <td><span class="badge badge-pass">satisfied</span></td>
+      <td><span class="badge badge-pass">satisfied</span></td>
+    </tr>
+    
+    <tr><td>Confirmed Facts (bullets)</td><td>3</td><td>4</td></tr>
+    
+    <tr><td>Ambiguities (bullets)</td><td>3</td><td>4</td></tr>
+    
+    <tr><td>Clarification Questions (bullets)</td><td>4</td><td>4</td></tr>
+    
+    <tr><td>Assumptions (bullets)</td><td>3</td><td>4</td></tr>
+    
+  </table>
+  <p class="muted">For the full text, open the Analysis Report page in Confluence and use "compare to v1".</p>
+</div>
+
+
+
+<div class="card">
+  <h2>Run history</h2>
+  <table>
+    <tr><th>When</th><th>Requirement version</th><th>Status</th></tr>
+    
+    <tr class="clickable" onclick="location.href='/jira/REQ-104/run/d6a035af'">
+      <td>2026-11-11 07:01 UTC</td><td>2</td><td>satisfied</td>
+    </tr>
+    
+    <tr class="clickable" onclick="location.href='/jira/REQ-104/run/e99cc7ed'">
+      <td>2026-11-11 07:01 UTC</td><td>1</td><td>satisfied</td>
+    </tr>
+    
+  </table>
+</div>
+
+
+  </main>
+</body>
+</html>

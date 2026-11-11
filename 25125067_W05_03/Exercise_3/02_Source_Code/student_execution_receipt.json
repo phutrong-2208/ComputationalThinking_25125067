@@ -1,0 +1,127 @@
+{
+  "student_id": "25125067",
+  "generated_at": "2026-11-11T14:30:11.003102+07:00",
+  "scope": "Live lab execution, not a graded-assignment or certificate claim",
+  "lessons": [
+    {
+      "lesson": "L2",
+      "executed_code_cells": 5,
+      "error_outputs": 0,
+      "mode": "live"
+    },
+    {
+      "lesson": "L3",
+      "executed_code_cells": 7,
+      "error_outputs": 0,
+      "mode": "live"
+    },
+    {
+      "lesson": "L4",
+      "executed_code_cells": 7,
+      "error_outputs": 0,
+      "mode": "live"
+    },
+    {
+      "lesson": "L5",
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "mode": "live"
+    },
+    {
+      "lesson": "L6",
+      "executed_code_cells": 12,
+      "error_outputs": 0,
+      "mode": "live"
+    }
+  ],
+  "L3_model_turns": 9,
+  "L3_trace_steps": 17,
+  "L4_verification_status": "satisfied",
+  "L4_grading_passes": 1,
+  "L5_events": {
+    "exercise": "L5 Event-Driven Loop",
+    "mode": "live",
+    "finished_at": "2026-11-11T07:01:36.354663+00:00",
+    "ticket": "REQ-104",
+    "data_directory": "student_practice_data/946791b3",
+    "triggered_runs": 2,
+    "requirement_versions": [
+      1,
+      2
+    ],
+    "report_versions": [
+      1,
+      2
+    ],
+    "verification_statuses": [
+      "satisfied",
+      "satisfied"
+    ],
+    "final_ticket_status": "Analysis Ready",
+    "human_marked_done": false
+  },
+  "L6_before": {
+    "label": "v1_live",
+    "model": "openai:gpt-5.4-mini",
+    "runs": 5,
+    "graded": 5,
+    "grader_errors": 0,
+    "first_attempt": {
+      "completeness": {
+        "passed": 5,
+        "total": 5,
+        "pass_rate": 1.0
+      },
+      "clarity": {
+        "passed": 1,
+        "total": 5,
+        "pass_rate": 0.2
+      },
+      "depth": {
+        "passed": 1,
+        "total": 5,
+        "pass_rate": 0.2
+      }
+    },
+    "revisions_needed": 4,
+    "documents": [
+      "01_user_authentication",
+      "02_notification_system",
+      "03_payment_retry_policy",
+      "04_access_control_rules",
+      "05_alert_escalation_rules"
+    ]
+  },
+  "L6_after": {
+    "label": "v2_live",
+    "model": "openai:gpt-5.4-mini",
+    "runs": 5,
+    "graded": 5,
+    "grader_errors": 0,
+    "first_attempt": {
+      "completeness": {
+        "passed": 5,
+        "total": 5,
+        "pass_rate": 1.0
+      },
+      "clarity": {
+        "passed": 5,
+        "total": 5,
+        "pass_rate": 1.0
+      },
+      "depth": {
+        "passed": 5,
+        "total": 5,
+        "pass_rate": 1.0
+      }
+    },
+    "revisions_needed": 0,
+    "documents": [
+      "01_user_authentication",
+      "02_notification_system",
+      "03_payment_retry_policy",
+      "04_access_control_rules",
+      "05_alert_escalation_rules"
+    ]
+  }
+}

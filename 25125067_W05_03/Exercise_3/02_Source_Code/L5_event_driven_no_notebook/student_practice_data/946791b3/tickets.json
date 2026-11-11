@@ -1,0 +1,25 @@
+[
+  {
+    "key": "REQ-104",
+    "title": "Review requirements: User Profile File Upload",
+    "description": "Please review the attached requirements doc for ambiguity before implementation kicks off.",
+    "linked_page_id": "page-req-upload",
+    "assignee": "Jordan (Eng Lead)",
+    "status": "Analysis Ready",
+    "comments": [
+      {
+        "author": "Requirements Analysis Agent (bot)",
+        "text": "Analysis complete (satisfied), requirement version 1. See Analysis Report \u2014 REQ-104 in Confluence.",
+        "timestamp": "2026-11-11 07:01 UTC"
+      },
+      {
+        "author": "Requirements Analysis Agent (bot)",
+        "text": "Analysis complete (satisfied), requirement version 2. See Analysis Report \u2014 REQ-104 in Confluence.",
+        "timestamp": "2026-11-11 07:01 UTC"
+      }
+    ],
+    "created_at": "2026-11-11 07:00 UTC",
+    "last_analyzed_version": 2,
+    "last_run_id": "d6a035af"
+  }
+]

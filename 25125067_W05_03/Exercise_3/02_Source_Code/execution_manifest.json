@@ -1,0 +1,29 @@
+[
+  {
+    "lesson": "L4",
+    "mode": "live",
+    "started_at": "2026-11-11T06:50:19.825389+00:00",
+    "status": "passed",
+    "finished_at": "2026-11-11T06:50:47.144427+00:00",
+    "executed_cells": 7,
+    "error_outputs": 0
+  },
+  {
+    "lesson": "L6",
+    "mode": "live",
+    "started_at": "2026-11-11T06:50:47.146066+00:00",
+    "status": "passed",
+    "finished_at": "2026-11-11T06:55:36.942659+00:00",
+    "executed_cells": 12,
+    "error_outputs": 0
+  },
+  {
+    "lesson": "L5",
+    "mode": "live",
+    "started_at": "2026-11-11T07:00:33.115006+00:00",
+    "status": "passed",
+    "finished_at": "2026-11-11T07:01:39.148991+00:00",
+    "executed_cells": 3,
+    "error_outputs": 0
+  }
+]

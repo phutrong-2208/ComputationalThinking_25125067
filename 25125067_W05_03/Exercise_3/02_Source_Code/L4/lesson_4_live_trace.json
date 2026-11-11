@@ -1,0 +1,134 @@
+{
+  "requirement_doc": "REQUIREMENT: Real-time Notification System\n\nThe system shall deliver notifications to users in a timely manner.\n\nNotifications must be sent through appropriate channels based on user preferences.\n\nThe system should handle high volumes of notifications efficiently.\n\nUsers must be able to customize their notification settings easily.\n\nCritical notifications require immediate delivery.\n\nThe system shall track notification delivery status reliably.\n",
+  "rubric": "- completeness: every clause of the requirement document is addressed somewhere in the analysis\n- clarity: every bullet in the Ambiguities section has an indented \"Resolved by:\" line naming the specific fact or decision that would settle it\n- depth: every bullet in the Ambiguities section has an indented \"Edge case:\" line naming a concrete production failure that ambiguity could cause",
+  "trace": [
+    {
+      "step": 1,
+      "actor": "Model reasoning",
+      "action": "Calls fetch_requirement",
+      "detail": ""
+    },
+    {
+      "step": 2,
+      "actor": "Tool",
+      "action": "fetch_requirement",
+      "detail": "REQUIREMENT: Real-time Notification System The system shall deliver notifications to users in a timely manner. Notifications must be sent through appropriate channels based on user preferences. The system should handle h\u2026"
+    },
+    {
+      "step": 3,
+      "actor": "Model reasoning",
+      "action": "Calls write_file: Confirmed Facts",
+      "detail": ""
+    },
+    {
+      "step": 4,
+      "actor": "Tool",
+      "action": "write_file: Confirmed Facts",
+      "detail": "Updated file /analysis.md"
+    },
+    {
+      "step": 5,
+      "actor": "Model reasoning",
+      "action": "Calls edit_file: Ambiguities",
+      "detail": ""
+    },
+    {
+      "step": 6,
+      "actor": "Tool",
+      "action": "edit_file: Ambiguities",
+      "detail": "Successfully replaced 1 instance(s) of the string in '/analysis.md'"
+    },
+    {
+      "step": 7,
+      "actor": "Model reasoning",
+      "action": "Calls edit_file: Clarification Questions",
+      "detail": ""
+    },
+    {
+      "step": 8,
+      "actor": "Tool",
+      "action": "edit_file: Clarification Questions",
+      "detail": "Successfully replaced 1 instance(s) of the string in '/analysis.md'"
+    },
+    {
+      "step": 9,
+      "actor": "Model reasoning",
+      "action": "Calls edit_file: Assumptions",
+      "detail": ""
+    },
+    {
+      "step": 10,
+      "actor": "Tool",
+      "action": "edit_file: Assumptions",
+      "detail": "Error: String '## Assumptions ' appears 2 times in file. Use replace_all=True to replace all instances, or provide a more specific string with surrounding context."
+    },
+    {
+      "step": 11,
+      "actor": "Model reasoning",
+      "action": "Calls read_file",
+      "detail": ""
+    },
+    {
+      "step": 12,
+      "actor": "Tool",
+      "action": "read_file",
+      "detail": "1 # Requirements Analysis 2 3 ## Confirmed Facts 4 - The requirement document is titled \"Real-time Notification System\". 5 - The system shall deliver notifications to users in a timely manner. 6 - Notifications must be s\u2026"
+    },
+    {
+      "step": 13,
+      "actor": "Model reasoning",
+      "action": "Calls edit_file: Assumptions",
+      "detail": ""
+    },
+    {
+      "step": 14,
+      "actor": "Tool",
+      "action": "edit_file: Assumptions",
+      "detail": "Successfully replaced 1 instance(s) of the string in '/analysis.md'"
+    },
+    {
+      "step": 15,
+      "actor": "Model reasoning",
+      "action": "Calls edit_file: Summary",
+      "detail": ""
+    },
+    {
+      "step": 16,
+      "actor": "Tool",
+      "action": "edit_file: Summary",
+      "detail": "Successfully replaced 1 instance(s) of the string in '/analysis.md'"
+    },
+    {
+      "step": 17,
+      "actor": "Model reasoning",
+      "action": "Finishes the review",
+      "detail": ""
+    }
+  ],
+  "grading": [
+    {
+      "iteration": 0,
+      "result": "satisfied",
+      "explanation": "The analysis file addresses every clause of the requirement document, and each ambiguity bullet has both a specific resolution target and a concrete failure mode. The required content is present in /analysis.md with clear coverage and depth.",
+      "criteria": [
+        {
+          "name": "every clause of the requirement document is addressed somewhere in the analysis",
+          "passed": true
+        },
+        {
+          "name": "every bullet in the Ambiguities section has an indented \"Resolved by:\" line naming the specific fact or decision that would settle it",
+          "passed": true
+        },
+        {
+          "name": "every bullet in the Ambiguities section has an indented \"Edge case:\" line naming a concrete production failure that ambiguity could cause",
+          "passed": true
+        }
+      ],
+      "analysis_markdown": "# Requirements Analysis\n\n## Confirmed Facts\n- The requirement document is titled \"Real-time Notification System\".\n- The system shall deliver notifications to users in a timely manner.\n- Notifications must be sent through appropriate channels based on user preferences.\n- The system should handle high volumes of notifications efficiently.\n- Users must be able to customize their notification settings easily.\n- Critical notifications require immediate delivery.\n- The system shall track notification delivery status reliably.\n\n## Ambiguities\n- **\"timely manner\"**\n  Reason: No delivery latency or freshness target is defined, so implementation and testing criteria are unclear.\n- **\"appropriate channels\"**\n  Reason: The allowed channels and selection rules are not specified.\n- **\"high volumes of notifications efficiently\"**\n  Reason: No throughput, concurrency, or scaling targets are provided.\n- **\"easily\"**\n  Reason: Usability expectations are subjective without measurable criteria.\n- **\"immediate delivery\"**\n  Reason: The acceptable delay for critical notifications is not defined.\n- **\"track notification delivery status reliably\"**\n  Reason: The required status states, update timing, and reliability guarantees are unspecified.\n\n## Clarification Questions\n- What delivery latency or SLA defines \"timely manner\"?\n- Which notification channels must be supported, and how should channel selection work from user preferences?\n- What throughput or scale must the system support for high notification volume?\n- What does \"easily\" mean for customizing notification settings, and are there usability or accessibility targets?\n- What delay threshold qualifies as \"immediate delivery\" for critical notifications?\n- Which delivery status values must be tracked, and what level of reliability is required?\n\n## Assumptions\n- Timeliness will be implemented using an agreed latency target once provided.\n- The system will support a defined set of channels chosen according to stored user preferences.\n- Capacity planning and performance work will be based on a throughput target supplied later.\n- Notification settings will be exposed through a straightforward user interface with basic validation and persistence.\n- Critical notifications will use a prioritized path with the lowest available delivery delay.\n- Delivery status tracking will include a standard lifecycle such as queued, sent, delivered, failed, and possibly acknowledged.\n\n## Summary\nThe document describes a real-time notification system that must deliver notifications promptly, route them through user-preferred channels, and support high-volume operation. It also requires configurable user settings, immediate handling for critical notifications, and reliable delivery status tracking. Several terms are vague and need measurable targets before implementation can be finalized.\n"
+    }
+  ],
+  "analysis_markdown": "# Requirements Analysis\n\n## Confirmed Facts\n- The requirement document is titled \"Real-time Notification System\".\n- The system shall deliver notifications to users in a timely manner.\n- Notifications must be sent through appropriate channels based on user preferences.\n- The system should handle high volumes of notifications efficiently.\n- Users must be able to customize their notification settings easily.\n- Critical notifications require immediate delivery.\n- The system shall track notification delivery status reliably.\n\n## Ambiguities\n- **\"timely manner\"**\n  Reason: No delivery latency or freshness target is defined, so implementation and testing criteria are unclear.\n- **\"appropriate channels\"**\n  Reason: The allowed channels and selection rules are not specified.\n- **\"high volumes of notifications efficiently\"**\n  Reason: No throughput, concurrency, or scaling targets are provided.\n- **\"easily\"**\n  Reason: Usability expectations are subjective without measurable criteria.\n- **\"immediate delivery\"**\n  Reason: The acceptable delay for critical notifications is not defined.\n- **\"track notification delivery status reliably\"**\n  Reason: The required status states, update timing, and reliability guarantees are unspecified.\n\n## Clarification Questions\n- What delivery latency or SLA defines \"timely manner\"?\n- Which notification channels must be supported, and how should channel selection work from user preferences?\n- What throughput or scale must the system support for high notification volume?\n- What does \"easily\" mean for customizing notification settings, and are there usability or accessibility targets?\n- What delay threshold qualifies as \"immediate delivery\" for critical notifications?\n- Which delivery status values must be tracked, and what level of reliability is required?\n\n## Assumptions\n- Timeliness will be implemented using an agreed latency target once provided.\n- The system will support a defined set of channels chosen according to stored user preferences.\n- Capacity planning and performance work will be based on a throughput target supplied later.\n- Notification settings will be exposed through a straightforward user interface with basic validation and persistence.\n- Critical notifications will use a prioritized path with the lowest available delivery delay.\n- Delivery status tracking will include a standard lifecycle such as queued, sent, delivered, failed, and possibly acknowledged.\n\n## Summary\nThe document describes a real-time notification system that must deliver notifications promptly, route them through user-preferred channels, and support high-volume operation. It also requires configurable user settings, immediate handling for critical notifications, and reliable delivery status tracking. Several terms are vague and need measurable targets before implementation can be finalized.\n",
+  "instructions": "# Requirements Review Agent\n\nYou turn a raw requirement document into a structured review report held in a\nsingle file, `/analysis.md`.\n\n## Procedure\n\nWork through these stages in order, one tool call per turn. Do not skip a stage\nand do not combine two stages into one call.\n\n1. Call `fetch_requirement` to get the requirement document.\n2. Call `write_file` to create `/analysis.md` with this exact skeleton, filling\n   in only the Confirmed Facts section:\n\n```\n# Requirements Analysis\n\n## Confirmed Facts\n- one bullet per fact\n\n## Ambiguities\n\n## Clarification Questions\n\n## Assumptions\n\n## Summary\n```\n\n3. Call `edit_file` to fill in the Ambiguities section. One bullet per clause, in\n   this shape:\n\n```\n- **\"the exact clause\"**\n  Reason: why it is under-specified\n```\n\n4. Call `edit_file` to fill in the Clarification Questions section. One bullet each.\n5. Call `edit_file` to fill in the Assumptions section. One bullet each.\n6. Call `edit_file` to fill in the Summary section with two or three sentences.\n\nTool calls can fail transiently, for example an unreachable external system. If a\ntool call returns an error message instead of a result, call the exact same tool\nagain with the same arguments. This is expected and normal, so keep retrying\nuntil it succeeds.\n\nYou never modify the requirement document itself; it is always the source of\ntruth. You never edit this file either.\n\nOnce the Summary is written the review is finished. Reply with one short sentence\nconfirming completion and call no further tools.\n\n## Review guidance\n\n### Confirmed facts\n\nRecord only what the document states directly. Do not infer.\n\n### Ambiguities\n\nQuote the exact clause, then give the reason it is under-specified.\n\n### Clarification questions\n\nAsk what a reviewer would need answered before work could start.\n\n### Assumptions\n\nState what a developer would end up assuming if nobody answered the questions.\n",
+  "status": "satisfied",
+  "turns": 9
+}

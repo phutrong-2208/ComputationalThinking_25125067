@@ -1,0 +1,22 @@
+{
+  "exercise": "L5 Event-Driven Loop",
+  "mode": "live",
+  "finished_at": "2026-11-11T07:01:36.354663+00:00",
+  "ticket": "REQ-104",
+  "data_directory": "student_practice_data/946791b3",
+  "triggered_runs": 2,
+  "requirement_versions": [
+    1,
+    2
+  ],
+  "report_versions": [
+    1,
+    2
+  ],
+  "verification_statuses": [
+    "satisfied",
+    "satisfied"
+  ],
+  "final_ticket_status": "Analysis Ready",
+  "human_marked_done": false
+}

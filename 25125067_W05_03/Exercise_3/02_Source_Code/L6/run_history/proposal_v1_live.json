@@ -1,0 +1,18 @@
+{
+  "target": "prompt",
+  "issue": "The agent writes each Ambiguities bullet with only a quoted clause and a `Reason:` line, omitting the rubric-required indented `Resolved by:` and `Edge case:` lines for every ambiguity.",
+  "recurrence": "All 5 first attempts show the omission; the grader explicitly rejected runs 01, 02, 04, and 05 for it. Run 03 was marked satisfied but its initial analysis also used only `Reason:` lines.",
+  "evidence": [
+    "\"The Ambiguities bullets lack the required indented \\\"Resolved by:\\\" and \\\"Edge case:\\\" lines\"",
+    "\"The Ambiguities bullets at lines 11-18 only include \\\"Reason:\\\" lines; there are no indented \\\"Resolved by:\\\" lines anywhere under each bullet.\"",
+    "\"None of the Ambiguities bullets has an indented \\\"Resolved by:\\\" line, and none has an indented \\\"Edge case:\\\" line.\"",
+    "\"The Ambiguities section is missing the required indented 'Resolved by:' and 'Edge case:' lines for each ambiguity bullet.\"",
+    "\"The Ambiguities section contains only \\\"Reason:\\\" lines; it does not include any indented \\\"Resolved by:\\\" lines for the bullets.\"",
+    "\"- **\\\"Retries must be spaced out sensibly to avoid overwhelming the payment provider.\\\"**\\n  Reason: \\\"sensibly\\\" is subjective and does not define a retry schedule, backoff strategy, or upper bounds.\""
+  ],
+  "section": "### Ambiguities",
+  "change": "Every ambiguity bullet must include exactly three indented labeled lines after the quoted clause:\n\n```\n  Reason: why it is under-specified\n  Resolved by: the specific fact or decision that would settle the ambiguity\n  Edge case: a concrete production failure this ambiguity could cause\n```",
+  "rejected": [
+    "Duplicated empty section headers were mentioned in run 01, but this was not the recurring rubric failure across the batch. Runs 02 and 03 encountered intermediate edit collisions but repaired them before grading, so this is not the main first-attempt criterion pattern."
+  ]
+}
