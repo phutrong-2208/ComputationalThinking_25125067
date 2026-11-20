@@ -1,0 +1,27 @@
+{
+  "application": "StudySpot",
+  "live_search": {
+    "center": [
+      10.779783,
+      106.699018
+    ],
+    "radius_m": 300,
+    "returned": 24,
+    "wifi_filtered": 6
+  },
+  "detail": {
+    "name": "Cà Phê Au Parc",
+    "distance_m": 151
+  },
+  "saved_after_reload": 1,
+  "empty_name_filter": 0,
+  "geojson_export": {
+    "ui_acknowledged": true,
+    "download_file_path_verified": false,
+    "reason": "Browser automation did not expose a Blob download path; pure export function tested separately."
+  },
+  "observed_viewport_width": 601,
+  "latest_reload_console_errors": [],
+  "screenshots": "03_Demo",
+  "overpass_live_verified": false
+}

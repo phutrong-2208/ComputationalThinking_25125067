@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:10,000
+Một góc nhỏ, nhiều ý tưởng.
+StudySpot giúp tìm quán cà phê và thư viện bằng OpenStreetMap API.
+MSSV 25125067 · Lab06
+Video dựng từ ảnh chụp thao tác thật, không phải quay màn hình liên tục.
+
+2
+00:00:10,000 --> 00:00:20,000
+24 địa điểm từ API thật.
+Tâm: Nhà thờ Đức Bà, TP.HCM.
+Bán kính: 300 m.
+Server lấy dữ liệu OSM, lọc amenity và tính khoảng cách đường chim bay. Dữ liệu thiếu được ghi rõ.
+
+3
+00:00:20,000 --> 00:00:30,000
+Thu hẹp lựa chọn.
+Bật “Có Wi-Fi”: danh sách còn 6 địa điểm.
+Bộ lọc chạy trên dữ liệu đã tải, không tạo thêm truy vấn API. Có thẻ Wi-Fi không bảo đảm quán phù hợp để học.
+
+4
+00:00:30,000 --> 00:00:40,000
+Xem thông tin cần thiết.
+Cà Phê Au Parc: cách tâm truy vấn 151 m.
+Địa chỉ, Wi-Fi, giờ mở cửa và mức tiếp cận xe lăn được đọc từ các thẻ OSM. Có liên kết đến đối tượng gốc.
+
+5
+00:00:40,000 --> 00:00:50,000
+Lưu một nơi để quay lại.
+Nhấn Lưu địa điểm.
+Nút đổi thành Bỏ lưu địa điểm. Thông tin được lưu trên trình duyệt bằng localStorage, không cần tài khoản.
+
+6
+00:00:50,000 --> 00:01:00,000
+Tải lại vẫn còn địa điểm.
+Sau reload, mục Đã lưu vẫn có Cà Phê Au Parc.
+Dữ liệu không đồng bộ giữa các máy. Xóa dữ liệu trình duyệt sẽ làm mất danh sách đã lưu.
+
+7
+00:01:00,000 --> 00:01:10,000
+Mang dữ liệu theo bạn.
+Xuất danh sách đang hiển thị thành GeoJSON.
+Tọa độ theo thứ tự kinh độ, vĩ độ; giữ nguồn OSM và ODbL. File mẫu được tạo bằng chính hàm xuất từ phản hồi API đã lưu.
+
+8
+00:01:10,000 --> 00:01:20,000
+Đối chiếu cách tích hợp.
+Mục Về StudySpot hiển thị endpoint, vùng bbox, thời điểm lấy và số kết quả.
+API v0.6 chỉ đọc; kết quả không phải dữ liệu do AI tự tạo.
+
+9
+00:01:20,000 --> 00:01:30,000
+Không có kết quả cũng rõ ràng.
+Lọc một tên không tồn tại: danh sách rỗng và có hướng dẫn bỏ bộ lọc.
+Có xử lý lỗi mạng, đầu vào sai và timeout. Mã nguồn, báo cáo và kiểm thử đi kèm bộ bài.

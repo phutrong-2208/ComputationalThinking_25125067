@@ -1,0 +1,26 @@
+StudySpot Lab06 automated verification
+Run at: 2026-11-20T01:11:20.237525+07:00
+Mode: offline synthetic fixtures + local HTTP integration; no live upstream calls
+
+test_category_reuses_map_cache_and_large_queries_are_rejected (test_server.DirectOSMTests.test_category_reuses_map_cache_and_large_queries_are_rejected) ... ok
+test_malformed_xml_and_upstream_failure (test_server.DirectOSMTests.test_malformed_xml_and_upstream_failure) ... ok
+test_xml_nodes_ways_relations_and_centers (test_server.DirectOSMTests.test_xml_nodes_ways_relations_and_centers) ... ok
+test_website_api_errors_and_path_isolation (test_server.HTTPTests.test_website_api_errors_and_path_isolation) ... ok
+test_cache_rate_limit_and_expiry (test_server.ServiceTests.test_cache_rate_limit_and_expiry) ... ok
+test_concurrent_duplicate_requests_share_cache (test_server.ServiceTests.test_concurrent_duplicate_requests_share_cache) ... ok
+test_results_are_bounded_and_empty_is_success (test_server.ServiceTests.test_results_are_bounded_and_empty_is_success) ... ok
+test_upstream_network_http_invalid_and_partial_responses (test_server.ServiceTests.test_upstream_network_http_invalid_and_partial_responses) ... ok
+test_distance_units_and_zero (test_server.ValidationTests.test_distance_units_and_zero) ... ok
+test_nodes_ways_unknown_tags_duplicates_and_radius (test_server.ValidationTests.test_nodes_ways_unknown_tags_duplicates_and_radius) ... ok
+test_valid_and_reject_nonfinite_out_of_range_injected_and_duplicate (test_server.ValidationTests.test_valid_and_reject_nonfinite_out_of_range_injected_and_duplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.604s
+
+OK
+
+Frontend verification: node --test tests/geojson.test.cjs
+Observed result: 3 tests passed, 0 failed.
+Checks: longitude-latitude order and licensing; saved-place distance reference; empty export and input immutability.
+JavaScript syntax: node --check web/app.js passed.
+Total automated tests passed: 14 (11 Python + 3 JavaScript).

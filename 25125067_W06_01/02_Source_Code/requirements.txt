@@ -1,0 +1,2 @@
+# Python 3.10 or newer. The server uses only the Python standard library.
+# Leaflet 1.9.4 is included locally in web/vendor/leaflet (BSD-2-Clause).

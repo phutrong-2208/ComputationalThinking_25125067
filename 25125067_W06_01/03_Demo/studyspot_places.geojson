@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "exported_at": "2026-11-19T18:28:59.756Z",
+  "query": {
+    "source": "OpenStreetMap API v0.6 (read-only map)",
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "attribution": "© OpenStreetMap contributors · ODbL 1.0",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "fetched_at": "2026-11-19T18:11:07.579196+00:00",
+    "osm_base": null,
+    "cached": true,
+    "query": "GET /api/0.6/map?bbox=106.6962716,10.7770850,106.7017644,10.7824810; local amenity filter=all",
+    "center": {
+      "lat": 10.779783,
+      "lon": 106.699018
+    },
+    "radius_m": 300,
+    "category": "all",
+    "upstream_count": 25,
+    "returned_count": 24,
+    "limit": 100,
+    "truncated": false
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/5469236221",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6983631,
+          10.7789519
+        ]
+      },
+      "properties": {
+        "id": "node/5469236221",
+        "name": "Địa điểm chưa có tên",
+        "category": "cafe",
+        "lat": 10.7789519,
+        "lon": 106.6983631,
+        "distance_m": 117,
+        "address": "7 Hàn Thuyên",
+        "wifi": "yes",
+        "wheelchair": "unknown",
+        "opening_hours": "Mo-Su 07:00-23:30",
+        "website": "",
+        "osm_url": "https://www.openstreetmap.org/node/5469236221",
+        "distance_reference": "Current search center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1407135685",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6981182,
+          10.7787503
+        ]
+      },
+      "properties": {
+        "id": "node/1407135685",
+        "name": "Cà Phê Au Parc",
+        "category": "cafe",
+        "lat": 10.7787503,
+        "lon": 106.6981182,
+        "distance_m": 151,
+        "address": "32 Hàn Thuyên, Thành phố Hồ Chí Minh",
+        "wifi": "yes",
+        "wheelchair": "limited",
+        "opening_hours": "Mo-Sa 07:30-22:30; Su 08:00-17:00",
+        "website": "",
+        "osm_url": "https://www.openstreetmap.org/node/1407135685",
+        "distance_reference": "Current search center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11055959705",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7004214,
+          10.7793468
+        ]
+      },
+      "properties": {
+        "id": "node/11055959705",
+        "name": "Gióng",
+        "category": "cafe",
+        "lat": 10.7793468,
+        "lon": 106.7004214,
+        "distance_m": 161,
+        "address": "57 Đường Nguyễn Du",
+        "wifi": "yes",
+        "wheelchair": "unknown",
+        "opening_hours": "",
+        "website": "",
+        "osm_url": "https://www.openstreetmap.org/node/11055959705",
+        "distance_reference": "Current search center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5483859821",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6982091,
+          10.7784297
+        ]
+      },
+      "properties": {
+        "id": "node/5483859821",
+        "name": "Cà Phê Thức",
+        "category": "cafe",
+        "lat": 10.7784297,
+        "lon": 106.6982091,
+        "distance_m": 175,
+        "address": "Q1 Đường Pasteur",
+        "wifi": "yes",
+        "wheelchair": "unknown",
+        "opening_hours": "",
+        "website": "",
+        "osm_url": "https://www.openstreetmap.org/node/5483859821",
+        "distance_reference": "Current search center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1770193865",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6975344,
+          10.7805631
+        ]
+      },
+      "properties": {
+        "id": "node/1770193865",
+        "name": "Cà Phê Đá",
+        "category": "cafe",
+        "lat": 10.7805631,
+        "lon": 106.6975344,
+        "distance_m": 184,
+        "address": "4 Alexandre de Rhodes",
+        "wifi": "yes",
+        "wheelchair": "unknown",
+        "opening_hours": "",
+        "website": "",
+        "osm_url": "https://www.openstreetmap.org/node/1770193865",
+        "distance_reference": "Current search center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5832350885",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7010262,
+          10.7781683
+        ]
+      },
+      "properties": {
+        "id": "node/5832350885",
+        "name": "Cộng Cà Phê",
+        "category": "cafe",
+        "lat": 10.7781683,
+        "lon": 106.7010262,
+        "distance_m": 283,
+        "address": "26 Lý Tự Trọng",
+        "wifi": "yes",
+        "wheelchair": "no",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "website": "http://www.congcaphe.com",
+        "osm_url": "https://www.openstreetmap.org/node/5832350885",
+        "distance_reference": "Current search center"
+      }
+    }
+  ]
+}

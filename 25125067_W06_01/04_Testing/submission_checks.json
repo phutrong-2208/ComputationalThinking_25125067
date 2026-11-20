@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-20T01:32:51.239646+07:00",
+  "report_pdf_pages": 6,
+  "readme_pdf_pages": 1,
+  "video_seconds": 90,
+  "video_resolution": [
+    1920,
+    1080
+  ],
+  "automated_tests_passed": 14,
+  "live_places": 24,
+  "wifi_export_features": 6,
+  "credentials_pattern_scan": "no matches",
+  "git_operations_performed": false,
+  "known_limits": [
+    "Overpass live connection not verified; default direct OSM API verified.",
+    "Browser Blob-download path unavailable; GeoJSON payload verified via shared export function.",
+    "Video is an annotated walkthrough assembled from actual browser screenshots."
+  ]
+}

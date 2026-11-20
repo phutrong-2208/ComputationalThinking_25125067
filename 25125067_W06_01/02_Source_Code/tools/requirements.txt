@@ -1,0 +1,3 @@
+# Optional: only for rebuilding the documentation/video, not the website.
+reportlab==4.4.9
+Pillow==13.0.0
