@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>PhraseTrip | Travel translator</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+<header><div class="brand"><span class="mark" aria-hidden="true">文</span> PhraseTrip</div><span>LAB07 · 25125067</span></header>
+<main>
+  <section class="intro"><p class="kicker">TRAVEL TRANSLATOR</p><h1>Find the words.<br><em>Go a little further.</em></h1>
+  <p>Translate a phrase for your next trip. Try a travel example or write your own.</p></section>
+  <form id="translator">
+    <div class="panels">
+      <section class="input-panel">
+        <label for="source">From</label><select id="source"><option value="auto">Detect language</option></select>
+        <label for="phrase" class="sr">Phrase to translate</label>
+        <textarea id="phrase" placeholder="Type a travel phrase…" maxlength="1000" required></textarea>
+        <div class="panel-foot"><button id="clear" type="button" class="quiet">Clear</button><span id="count">0 / 1000</span></div>
+      </section>
+      <section class="output-panel">
+        <label for="target">To</label><select id="target"></select>
+        <div id="result" aria-live="polite" class="placeholder">Your translation will appear here.</div>
+        <div class="panel-foot"><span id="detected"></span><button id="copy" type="button" class="quiet" disabled>Copy</button></div>
+      </section>
+    </div>
+    <div class="actions"><button type="button" id="swap" class="quiet">⇄ Swap languages</button><button type="submit" id="translate">Translate phrase</button></div>
+    <p id="status" role="status"></p>
+  </form>
+  <section class="examples"><h2>Try a travel phrase</h2><div>
+    <button data-sample="Where is the nearest train station?">Train station</button>
+    <button data-sample="I have a reservation for two nights.">Hotel check-in</button>
+    <button data-sample="Do you have a vegetarian menu?">Eating out</button>
+    <button data-sample="¿Dónde puedo comprar un billete?">Spanish example</button>
+  </div></section>
+  <footer>Translation uses googletrans, an unofficial Google Translate wrapper. Phrases are sent when you select Translate phrase.</footer>
+</main>
+</body>
+</html>

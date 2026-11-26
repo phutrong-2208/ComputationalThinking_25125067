@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-11-26T22:58:47.264231+07:00",
+  "checks": [
+    {
+      "check": "Live English to Vietnamese",
+      "status": 200,
+      "response": {
+        "text": "Ga xe lửa gần nhất ở đâu?",
+        "source": "en",
+        "target": "vi",
+        "provider": "googletrans (unofficial)"
+      }
+    },
+    {
+      "check": "Live Spanish to English",
+      "status": 200,
+      "response": {
+        "text": "Where can I buy a ticket?",
+        "source": "es",
+        "target": "en",
+        "provider": "googletrans (unofficial)"
+      }
+    },
+    {
+      "check": "Blank input",
+      "status": 400,
+      "response": {
+        "error": "Enter a phrase between 1 and 1,000 characters."
+      }
+    },
+    {
+      "check": "Too long",
+      "status": 400,
+      "response": {
+        "error": "Enter a phrase between 1 and 1,000 characters."
+      }
+    },
+    {
+      "check": "Unsupported target",
+      "status": 400,
+      "response": {
+        "error": "Choose a supported source and target language."
+      }
+    },
+    {
+      "check": "Malformed JSON",
+      "status": 400,
+      "response": {
+        "error": "Send valid JSON."
+      }
+    }
+  ]
+}
